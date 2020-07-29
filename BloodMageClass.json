@@ -442,16 +442,6 @@
         ]
     },
     {
-        "name": "",
-        "source": "BloodMageClass",
-        "className": "Blood Mage",
-        "classSource": "BloodMageClass",
-        "level": 18,
-        "entries": [
-            ""
-        ]
-    },
-    {
         "name": "Ability Score Improvement",
         "source": "BloodMageClass",
         "className": "Blood Mage",
@@ -608,7 +598,7 @@
         "reqAttune": "by a blood mage",
         "entries": [
             "A blood orb stores soul for blood mages. In order to interact with the blood orb you must be attuned to it.",
-            "If you are attuned to the blood orb you may use any soul contained inside as fuel for your blood mage spells. You may also store soul inside it using the Extract Soul feature.",
+            "If you are attuned to the blood orb you may use any soul contained inside as fuel for your blood mage spells. While it is attuned it floats in your space; always staying within a few feet of you.",
             "The rarity of the blood orb is determined by its soul capacity, as shown below.",
             {
                 "type": "table",
