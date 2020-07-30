@@ -461,7 +461,7 @@
         "entries": [
             "Your mastery of blood magic has manifested in the perfect exchange of soul into blood and blood into soul.",
             "You may now perform all of the effects of {@classFeature Extract Soul|Blood Mage|BloodMageClass|1} as a free action.",
-            "The effects of {@classFeature Absorb Soul|Blood Mage|BloodMageClass|5} are now 5 hitpoints for a bonus action; instead of 1 hitpoint for an action. The cost is now 1 soul per hitpoint; instead of 2 soul per hitpoint."
+            "The effects of {@classFeature Absorb Soul|Blood Mage|BloodMageClass|5} are now 5 hitpoints for a bonus action or action; instead of 1 hitpoint for an action. The cost is now 1 soul per hitpoint; instead of 2 soul per hitpoint."
         ]
     }
 ],
