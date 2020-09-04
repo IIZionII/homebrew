@@ -584,7 +584,7 @@
         "level": 14,
         "entries": [
             "As your abilities have matured your soul vampirism has culminated in the ability to fully drain the blood of a creature; refining it into soul and storing it in an attuned blood orb.",
-            "You may take an action to make a melee spell attack with an empty hand against a medium or smaller creature with blood. On a hit, the target must make a Constitution saving throw; the target is then considered {@condition grappled} and {@condition restrained}. On a success, the target takes 4d10 necrotic damage. On a failure, you may extract soul worth up to half of the target's max hitpoints. Until the target is no longer {@condition grappled}, the target must make the same Constitution save with the same consequences on your turns.",
+            "You may take an action to make a melee spell attack with an empty hand against a medium or smaller creature with blood. On a hit, the target is considered {@condition grappled} and {@condition restrained} and the target must make a Constitution saving throw against your spell save DC. On a success, the target takes 4d10 necrotic damage. On a failure, you may extract soul worth up to half of the target's max hitpoints. Until the target is no longer {@condition grappled}, the target must make the same Constitution save with the same consequences on your turns.",
             "After you have used this feature you must finish a long rest before you can use it again."
         ]
     }
