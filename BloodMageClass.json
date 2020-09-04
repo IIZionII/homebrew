@@ -193,7 +193,7 @@
                 "type": "entries",
                 "name": "Casting Spells",
                 "entries": [
-                    "Blood magic is fueled by soul; the magical essence found in living things. The level of spell directly correlates to the amount of soul required to fuel that spell. The soul used to fuel your spells can be acquired from a blood orb with soul stored inside and or from soul extracted within the same turn, and when used is expended permanently. The cost for each level of spell can be found below.",
+                    "Blood magic is fueled by soul; the magical essence found in the blood of living things. The level of spell directly correlates to the amount of soul required to fuel that spell. The soul used to fuel your spells can be acquired from a blood orb with soul stored inside and or from soul extracted within the same turn, and when used is expended permanently. The cost for each level of spell can be found below.",
                     {
                         "type": "table",
                         "colLabels": [
