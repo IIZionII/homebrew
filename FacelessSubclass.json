@@ -59,17 +59,17 @@
 				}
 			],
             "subclassFeatures": [
-                "The Faceless|Warlock||Faceless|FLS|1",
-                "Brightening Star|Warlock||Faceless|FLS|6",
-                "Deepening Void|Warlock||Faceless|FLS|10",
-                "Supernova|Warlock||Faceless|FLS|14"
+                "The Faceless|Warlock||Faceless|FLS|1|FLS",
+                "Brightening Star|Warlock||Faceless|FLS|6|FLS",
+                "Deepening Void|Warlock||Faceless|FLS|10|FLS",
+                "Supernova|Warlock||Faceless|FLS|14|FLS"
             ]
         }
     ],
     "subclassFeature": [
         {
             "name": "The Facelesss",
-            "source": "FacelessSubclass",
+            "source": "FLS",
             "className": "Warlock",
             "classSource": "PHB",
             "subclassShortName": "Faceless",
@@ -120,17 +120,17 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Mask of the Faceless|Warlock||Faceless|FLS|1"
+					"subclassFeature": "Mask of the Faceless|Warlock||Faceless|FLS|1|FLS"
 				},
                 {
 					"type": "refSubclassFeature",
-					"subclassFeature": "Star of the Faceless|Warlock||Faceless|FLS|1"
+					"subclassFeature": "Star of the Faceless|Warlock||Faceless|FLS|1|FLS"
 				}
             ]
         },
         {
             "name": "Mask of the Faceless",
-            "source": "FacelessSubclass",
+            "source": "FLS",
             "className": "Warlock",
             "classSource": "PHB",
             "subclassShortName": "Faceless",
@@ -143,7 +143,7 @@
         },
         {
             "name": "Star of the Faceless",
-            "source": "FacelessSubclass",
+            "source": "FLS",
             "className": "Warlock",
             "classSource": "PHB",
             "subclassShortName": "Faceless",
@@ -156,7 +156,7 @@
         },
         {
             "name": "Brightening Star",
-            "source": "FacelessSubclass",
+            "source": "FLS",
             "className": "Warlock",
             "classSource": "PHB",
             "subclassShortName": "Faceless",
@@ -168,7 +168,7 @@
         },
         {
             "name": "Deepening Void",
-            "source": "FacelessSubclass",
+            "source": "FLS",
             "className": "Warlock",
             "classSource": "PHB",
             "subclassShortName": "Faceless",
@@ -181,7 +181,7 @@
         },
         {
             "name": "Supernova",
-            "source": "FacelessSubclass",
+            "source": "FLS",
             "className": "Warlock",
             "classSource": "PHB",
             "subclassShortName": "Faceless",
