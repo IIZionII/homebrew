@@ -1,0 +1,195 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "FacelessSubclass",
+                "abbreviation": "FLS",
+                "full": "Faceless Subclass",
+                "authors": [
+                    "Zion"
+                ],
+                "version": "1.0.0",
+                "color": "f0e9c7"
+            }
+        ]
+    },
+    "subclass": [
+        {
+            "name": "Faceless",
+            "source": "FLS",
+            "shortName": "Faceless",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassSpells": [
+				"sleep",
+				"absorb elements|xge",
+				"moonbeam",
+				"branding smite",
+				"haste",
+				"pulse wave|egw",
+				"staggering smite",
+				"phantasmal killer",
+				"creation",
+				"steel wind strike|xge"
+			],
+            "additionalSpells": [
+				{
+					"expanded": {
+						"s1": [
+							"absorb elements|xge",
+							"sleep"
+						],
+						"s2": [
+							"moonbeam",
+							"branding smite"
+						],
+						"s3": [
+							"haste",
+							"pulse wave|egw"
+						],
+						"s4": [
+							"staggering smite",
+							"phantasmal killer"
+						],
+						"s5": [
+							"creation",
+							"steel wind strike|xge"
+						]
+					}
+				}
+			],
+            "subclassFeatures": [
+                "The Faceless|Warlock||Faceless|FLS|1",
+                "Brightening Star|Warlock||Faceless|FLS|6",
+                "Deepening Void|Warlock||Faceless|FLS|10",
+                "Supernova|Warlock||Faceless|FLS|14"
+            ]
+        }
+    ],
+    "subclassFeature": [
+        {
+            "name": "The Facelesss",
+            "source": "FacelessSubclass",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Faceless",
+            "subclassSource": "FLS",
+            "level": 1,
+            "entries": [
+                "Homebrew patron",
+				{
+					"type": "entries",
+					"name": "Expanded Spell List",
+					"entries": [
+						"The Faceless patron lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+						{
+							"type": "table",
+							"caption": "Faceless Expanded Spells",
+							"colLabels": [
+								"Spell Level",
+								"Spells"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"1st",
+									"{@spell absorb elements|xge}, {@spell sleep}"
+								],
+								[
+									"2nd",
+									"{@spell branding smite}, {@spell moonbeam}"
+								],
+								[
+									"3rd",
+									"{@spell haste}, {@spell pulse wave|egw}"
+								],
+								[
+									"4th",
+									"{@spell phantasmal killer}, {@spell staggering smite}"
+								],
+								[
+									"5th",
+									"{@spell creation}, {@spell steel wind strike|xge}"
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Mask of the Faceless|Warlock||Faceless|FLS|1"
+				},
+                {
+					"type": "refSubclassFeature",
+					"subclassFeature": "Star of the Faceless|Warlock||Faceless|FLS|1"
+				}
+            ]
+        },
+        {
+            "name": "Mask of the Faceless",
+            "source": "FacelessSubclass",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Faceless",
+            "subclassSource": "FLS",
+            "level": 1,
+            "entries": [
+                "Your senses have been taken along with your face, but the mask you were given in exchange can sense things as you once did. You have a telepathic link with this mask, and it continuously relays its senses to you. If this mask is ever separated from you you may spend a bonus action conjuring it to your face. Should this mask be planeshifted apart from you it will immediately return to your face instead of going to any other destination.",
+                "While wearing this mask you can cast {@spell disguise self} at will, without expending a spell slot. If this mask is taken off while the spell is in effect it will immediately end."
+            ]
+        },
+        {
+            "name": "Star of the Faceless",
+            "source": "FacelessSubclass",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Faceless",
+            "subclassSource": "FLS",
+            "level": 1,
+            "entries": [
+                "The Faceless described you as his star, and has given you a radiance to signify such. Weapon Attacks you make deal an extra {@dice 1d4} radiant damage.",
+                "This feature's damage increases by {@dice 1d4} when you reach 6th level ({@dice 2d4}), 10th level ({@dice 3d4}), and 14th level ({@dice 4d4})."
+            ]
+        },
+        {
+            "name": "Brightening Star",
+            "source": "FacelessSubclass",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Faceless",
+            "subclassSource": "FLS",
+            "level": 6,
+            "entries": [
+                "Starting at 6th level, your link to the Faceless has caused your radiance to brighten. You have resistance to radiant damage, and when you cast a spell that deals radiant or force damage, you can add your Charisma modifier to one radiant or force damage roll of that spell against one of its targets."
+            ]
+        },
+        {
+            "name": "Deepening Void",
+            "source": "FacelessSubclass",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Faceless",
+            "subclassSource": "FLS",
+            "level": 10,
+            "entries": [
+                "Starting at 10th level, you can absorb up to half the damage that a spell would deal to you. Then, the first time you hit with a melee attack on your next turn, you may deal the absorbed damage to that target.",
+                "Once you use this feature, you can't use it again until you finish a short or long rest."
+            ]
+        },
+        {
+            "name": "Supernova",
+            "source": "FacelessSubclass",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Faceless",
+            "subclassSource": "FLS",
+            "level": 14,
+            "entries": [
+                "Starting at 14th level, when you fall below half hitpoints you may let your radiance explode outward. Each creature within 30 feet of you takes radiant damage equal to half your max hit points."
+            ]
+        }
+    ]
+}
