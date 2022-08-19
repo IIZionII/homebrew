@@ -178,6 +178,17 @@
                 "You remain in this form for 1 minute. It ends early if you are {@condition incapacitated}, if you die, or if you dismiss it as a bonus action. Once you use this feature, you can't use it again until you finish a short or long rest."
             ]
         },
-        
+        {
+            "name": "Eyes of the Void",
+            "source": "FLS",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Faceless",
+            "subclassSource": "FLS",
+            "level": 14,
+            "entries": [
+                "Starting at 14th level, gain {@sense truesight} out to a range of 120 feet."
+            ]
+        }
     ]
 }
