@@ -1,0 +1,645 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "DragonTemplarClass",
+                "abbreviation": "DT",
+                "full": "Dragon Templar Class",
+                "authors": [
+                    "Dartanian",
+                    "Helioz",
+                    "Zion"
+                ],
+                "version": "1.0.0",
+                "color": "5500aa"
+            }
+        ]
+    },
+    
+    "class": [
+        {
+            "name": "Dragon Templar",
+            "source": "DragonTemplarClass",
+            "hd": {
+                "number": 1,
+                "faces": 10
+                },
+            "proficiency": [
+                "str",
+                "con"
+            ],
+            "spellcastingAbility": "cha",
+			"casterProgression": "1/2",
+			"preparedSpells": "<$level$> / 2 + <$cha_mod$>",
+            "startingProficiencies": {
+                "armor": [
+                    "light",
+                    "medium",
+                    "{@item shield|phb|shields}"
+                ],
+                "weapons": [
+                    "simple",
+                    "martial"
+                ],
+                "skills": [
+                    {
+                    "choose": {
+                        "from": [
+                            "animal handling"
+                        ],
+                        "count": 1
+                    }
+                    },
+                    {
+                    "choose": {
+                        "from": [
+                            "arcana",
+                            "athletics",
+                            "intimidation",
+                            "perception",
+                            "medicine"
+                        ],
+                        "count": 2
+                    }
+                    }
+                ]
+            },
+            "startingEquipment": {
+                "default": [
+                    "Any {@filter martial weapon|items|source=phb|category=basic|type=martial weapon}",
+                    "Any two {@filter simple weapons|items|source=phb|category=basic|type=simple weapon}",
+                    "(a) {@item leather armor|phb}, (b) {@item chain shirt|phb}",
+                    "{@item Leatherworker's tools|phb} and an {@item explorer's pack|phb}"
+                ],
+                "additionalFromBackground": true,
+                "goldAlternative": "{@dice 5d4 × 10|5d4 × 10|Starting Gold}",
+                "defualtData": [
+                    {
+                        "_":[
+                            {
+                                "equipmentType": "weaponMartial"
+                            }
+                        ]
+                    },
+                    {
+                        "_":[
+                            {
+                                "equipmentType": "weaponSimple"
+                            }
+                        ]
+                    },
+                    {
+						"a": [
+							"leather armor|phb"
+						],
+						"b": [
+							"chain shirt|phb"
+						]
+					},
+                    {
+                        "_":[
+                            "leatherworker's tools|phb",
+                            "explorer's pack|phb"
+                        ]
+                    }
+                ]
+            },
+            "classSpells": [
+                {
+                    "class": "Wizard",
+                    "source": "PHB"
+                }
+            ],
+            "classTableGroups": [
+                {
+                    "colLabels": [
+                        "Cantrips Known"
+                    ],
+                    "rows": [
+                        ["2"],
+                        ["2"],
+                        ["2"],
+                        ["3"],
+                        ["3"],
+                        ["3"],
+                        ["3"],
+                        ["3"],
+                        ["3"],
+                        ["4"],
+                        ["4"],
+                        ["4"],
+                        ["4"],
+                        ["4"],
+                        ["5"],
+                        ["5"],
+                        ["5"],
+                        ["5"],
+                        ["5"],
+                        ["5"]
+                    ]
+                },
+				{
+					"title": "Spell Slots per Spell Level",
+					"colLabels": [
+						"{@filter 1st|spells|level=1|class=sorcerer}",
+						"{@filter 2nd|spells|level=2|class=sorcerer}",
+						"{@filter 3rd|spells|level=3|class=sorcerer}",
+						"{@filter 4th|spells|level=4|class=sorcerer}",
+						"{@filter 5th|spells|level=5|class=sorcerer}"
+					],
+					"rowsSpellProgression": [
+						[
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							2,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2
+						]
+					]
+				}
+			],
+            "classFeatures": [
+                "Companion Bond|Dragon Templar|DragonTemplarClass|1|DragonTemplarClass",
+                "Spellcasting|Dragon Templar|DragonTemplarClass|1|DragonTemplarClass",
+                "Fighting Style|Dragon Templar|DragonTemplarClass|2|DragonTemplarClass",
+                "Eye For Detail|Dragon Templar|DragonTemplarClass|3|DragonTemplarClass",
+                "Riding Trainee|Dragon Templar|DragonTemplarClass|3|DragonTemplarClass",
+                "Dragon's Fang|Dragon Templar|DragonTemplarClass|3|DragonTemplarClass",
+                "Ability Score Improvement|Dragon Templar|DragonTemplarClass|4|DragonTemplarClass",
+                "Extra Attack|Dragon Templar|DragonTemplarClass|5|DragonTemplarClass",
+                "Terrifying Roar|Dragon Templar|DragonTemplarClass|6|DragonTemplarClass",
+                "Blade And Tongue|Dragon Templar|DragonTemplarClass|7|DragonTemplarClass",
+                "Ability Score Improvement|Dragon Templar|DragonTemplarClass|8|DragonTemplarClass",
+                "Riding Adept|Dragon Templar|DragonTemplarClass|9|DragonTemplarClass",
+                "Draconic Fury|Dragon Templar|DragonTemplarClass|10|DragonTemplarClass",
+                "Riding Expert|Dragon Templar|DragonTemplarClass|11|DragonTemplarClass",
+                "Ability Score Improvement|Dragon Templar|DragonTemplarClass|12|DragonTemplarClass",
+                "Bond Of Scale|Dragon Templar|DragonTemplarClass|13|DragonTemplarClass",
+                "Deepened Bond|Dragon Templar|DragonTemplarClass|14|DragonTemplarClass",
+                "Ability Score Improvement|Dragon Templar|DragonTemplarClass|16|DragonTemplarClass",
+                "Breath Protection|Dragon Templar|DragonTemplarClass|17|DragonTemplarClass",
+                "Primal Bond|Dragon Templar|DragonTemplarClass|18|DragonTemplarClass",
+                "Ability Score Improvement|Dragon Templar|DragonTemplarClass|19|DragonTemplarClass",
+                "Master Rider|Dragon Templar|DragonTemplarClass|20|DragonTemplarClass"
+            ]
+        }
+    ],
+    "classFeature": [
+        {
+            "name": "Companion Bond",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Templar",
+            "classSource": "DragonTemplarClass",
+            "level": 1,
+            "entries": [
+                "You and your dragon companion have a telepathic bond. While you are on the same plane of existence always know the direction to one another."
+            ]
+        },
+        {
+            "name": "Spellcasting",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Templar",
+            "classSource": "DragonTemplarClass",
+            "level": 1,
+            "entries": [
+                    "As a Dragon Templar, You have chosen to master the incorporation of the arcane arts into your combat style. Riders and mages alike seek you out for advice and assitance in all matters of the mystic arts. Starting at 1st level, assisted by your companion, you learn to use your sharp wit and tongue to assist your allies and assail your foes. Dragon Templars use the {@link sorcerer spell list|https://5e.tools/spells.html#blankhash,flstclass:sorcerer=1}.",
+                {
+                    "type": "entries",
+                    "name":"Cantrips",
+                    "entries": [
+                        "You know two cantrips of your choice from the sorcerer spell list. You learn additional sorcerer cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Dragon Templar table."
+                    ]
+                },
+                {
+					"type": "entries",
+					"name": "Preparing and Casting Spells",
+					"entries": [
+						"The Dragon Templar Spellcasting table shows how many spell slots you have to cast your spells of 1st level or higher. To cast one of your sorcerer spells of 1st level or higher, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+						"You prepare the list of spells that are available for you to cast, choosing from the sorcerer spell list. When you do so, choose a number of sorcerer spells equal to your Charisma modifier + half your Dragon Templar level, rounded down (minimum of one spell). The spells must be of a level for which you have spell slots.",
+						"For example, if you are a 5th-level Dragon Templar, you have four 1st-level and two 2nd-level spell slots. With a Charisma of 14, your list of prepared spells can include four spells of 1st or 2nd-level, in any combination. If you prepare the 1st-level spell {@spell chromatic orb}, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.",
+						"You can change your list of prepared spells when you finish a long rest. Preparing a new list of sorcerer spells requires time spent in meditation: at least 1 minute per spell level for each spell on your list."
+					]
+				},
+                {
+					"type": "entries",
+					"name": "Spellcasting Ability",
+					"entries": [
+						"Charisma is your spellcasting ability for your Dragon Templar spells. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a Dragon Templar spell you cast and when making an attack roll with one.",
+						{
+							"type": "abilityDc",
+							"name": "Spell",
+							"attributes": [
+								"cha"
+							]
+						},
+						{
+							"type": "abilityAttackMod",
+							"name": "Spell",
+							"attributes": [
+								"cha"
+							]
+						}
+					]
+				}
+            ]
+        },
+        {
+            "name": "Fighting Style",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Templar",
+            "classSource": "DragonTemplarClass",
+            "level": 2,
+            "entries": [
+                "At 2nd level, you adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take the same Fighting Style option more than once, even if you get to choose again.",
+                {
+                    "type": "options",
+                    "count": 1,
+                    "entries": [
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Close Quarters Shooter|UALightDarkUnderdark"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Defense"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Dueling"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Great Weapon Fighting"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Mariner|UAWaterborneAdventures"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Protection"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Tunnel Fighter|UALightDarkUnderdark"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Blind Fighting|UAClassFeatureVariants"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Interception|UAClassFeatureVariants"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Thrown Weapon Fighting|UAClassFeatureVariants"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Unarmed Fighting|UAClassFeatureVariants"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Blind Fighting|TCE"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Interception|TCE"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Eye For Detail",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Templar",
+            "classSource": "DragonTemplarClass",
+            "level": 3,
+            "entries": [
+                "At 3rd level, you can easily discern the value and rarity of gems, art pieces, and magical items. You can spend 10 minutes studying a gem or art piece, after which you learn it's exact value. Additionally, if it is a gemstone, you learn what kind of gemstone it is. If it's an art piece, you learn how old it is. In addition, you can cast the identify spell, but only as a ritual. You don't require material components for the spell when you cast it this way."
+            ]
+        },
+        {
+            "name": "Riding Trainee",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Templar",
+            "classSource": "DragonTemplarClass",
+            "level": 3,
+            "entries": [
+                "At 3rd level, you have now built up enough trust to ride with your dragon companion. You are capable of riding your companion while it is walking, however it is incapable of carrying you while flying under normal means. For example, your companion's body may not becapable of supporting your weight on top of it while in flight, but it may carry you between its claws, as if you were unconscious, incapable of taking normal actions. Alternatively, it may not trust you to be near its most vulnerable point while it is in flight.",
+                "Your telepathic bond has also grown, and now you and your dragon companion can communicate thoughts, emotions, feelings, and images telepathically within 1000ft."
+            ]
+        },
+        {
+            "name": "Dragon's Fang",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Templar",
+            "classSource": "DragonTemplarClass",
+            "level": 3,
+            "entries": [
+                "At 3rd level, You can harvest a small amount of Dragon Breath with your own magic, and channel it into your weapon attacks. Upon landing an weapon attack, you may expend a spell slot to deal additional damage of your dragon's breath damage type. This damage is equal to 1d8 plus 1d8 per level of the spell slot expended. Ranged attacks deal half this additional damage instead."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Templar",
+            "classSource": "DragonTemplarClass",
+            "level": 4,
+            "entries": [
+                "When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ]
+        },
+        {
+            "name": "Extra Attack",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Templar",
+            "classSource": "DragonTemplarClass",
+            "level": 5,
+            "entries": [
+                "Beginning at 5th level, you can attack twice, instead of once, whenever you take the {@action Attack} action on your turn."
+            ]
+        },
+        {
+            "name": "Terrifying Roar",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Templar",
+            "classSource": "DragonTemplarClass",
+            "level": 6,
+            "entries": [
+                "At 6th level, You may, as an action, roar with your dragon in a terrifying display of unity and might. Consuming one of their breath weapon uses, you may have your companion pick any number of targets within 60ft of them to make a wisdom saving throw against their breath weapon DC, making any who fail frightened of both you and your dragon for 1 minute. Creatures may repeat this saving throw at the end of each of their turns."
+            ]
+        },
+        {
+            "name": "Blade And Tongue",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Templar",
+            "classSource": "DragonTemplarClass",
+            "level": 7,
+            "entries": [
+                "At 7th level, when taking the attack action, you may replace one weapon attack with a cantrip."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Templar",
+            "classSource": "DragonTemplarClass",
+            "level": 8,
+            "entries": [
+                "When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ]
+        },
+        {
+            "name": "Riding Adept",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Templar",
+            "classSource": "DragonTemplarClass",
+            "level": 9,
+            "entries": [
+                "At 9th level, you have nearly perfected mounted combat. While mounted on your dragon companion, you can move freely in the saddle of your dragon companion, capable of attacking creatures that would normally be out of range of your attacks due to your companion's size. In addition, while mounted on your companion you score a critical hit on a 19 or 20. Your companion also functions on its own, acting during your turn alongside your actions, instead of immediately after your turn. You may telepathically coordinate actions with your companion freely."
+            ]
+        },
+        {
+            "name": "Draconic Fury",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Templar",
+            "classSource": "DragonTemplarClass",
+            "level": 10,
+            "entries": [
+                "At 10th level, Your telepathic bond with your dragon has grown further still allows you communicate over 1 mile. This growth also allows you and your dragon to harness each other's rage, empowering your magic. Damage you or your dragon deal of the type of your dragon's breath weapon ignores resistance."
+            ]
+        },
+        {
+            "name": "Riding Expert",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Templar",
+            "classSource": "DragonTemplarClass",
+            "level": 11,
+            "entries": [
+                "At 11th level, you have become extremely comfortable on the back of your dragon companion and they are comfortable with you on them. You can now ride your companion while it uses its flying speed. Additionally, while mounted on your companion, you are considered under the sanctuary spell unless you use your action to make an attack roll or cast a damaging spell. You regain this feature at the start of your next turn. Any failed save to target you instead targets your companion."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Templar",
+            "classSource": "DragonTemplarClass",
+            "level": 12,
+            "entries": [
+                "When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ]
+        },
+        {
+            "name": "Bond Of Scale",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Templar",
+            "classSource": "DragonTemplarClass",
+            "level": 13,
+            "entries": [
+                "At 13th level, you may use an action and spend one of your highest level spell slots to regenerate half its level rounded up uses of your dragon's breath weapon. In addition, your dragon may use an action and spend uses of their breath weapon to rejuvenate all the spell slots of a specific level of your choice except the highest available, with the number of uses spent equalling the spell slot level restored plus one. You and your Dragon can only use this feature when you are within range of your telepathic bond."
+            ]
+        },
+        {
+            "name": "Deepened Bond",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Templar",
+            "classSource": "DragonTemplarClass",
+            "level": 14,
+            "entries": [
+                "At 14th level, your bond with your companion becomes more intimate and instinctual. If you or your dragon make an action that requires a saving throw of the other, you have advantage on that save. You can also now communicate within 5 miles."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Templar",
+            "classSource": "DragonTemplarClass",
+            "level": 16,
+            "entries": [
+                "When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ]
+        },
+        {
+            "name": "Breath Protection",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Templar",
+            "classSource": "DragonTemplarClass",
+            "level": 17,
+            "entries": [
+                "At 17th level, your familiarity and exposure to dragon's breath weapons has hardened your mind and body to their effects. You are immune to the damage type of your dragon's breath weapon, and you have advantage on saving throws against breath weapons."
+            ]
+        },
+        {
+            "name": "Primal Bond",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Templar",
+            "classSource": "DragonTemplarClass",
+            "level": 18,
+            "entries": [
+                "At 18th level, Your bond with your dragon has grown ever deeper, and you can use the innate magic of your companion to manifest powerful spells. Choose a 6th level and 7th level spell. You may cast each of these with an expenditure of your dragon's breath weapon.",
+                "Once you use this feature, you cannot do so again until you finish a long rest."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Templar",
+            "classSource": "DragonTemplarClass",
+            "level": 19,
+            "entries": [
+                "When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ]
+        },
+        {
+            "name": "Master Rider",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Templar",
+            "classSource": "DragonTemplarClass",
+            "level": 20,
+            "entries": [
+                "At 20th level, your bond with your companion becomes unbreakable. While mounted on your dragon companion, you and your companion have advantage on all saving throws. In addition, your telepathic bond persists regardless of the distance or whether you are on the same plane of existence. Finally, if you or your dragon companion would be reduced to 0 hit points or die, you or your companion can use your reaction to reduce their hit point maximum by half to prevent their companion from dying. The unconscious or dying companion regains an amount of hit points equal to the hit points reduced. You or your companion have your hitpoint maximum reduced until you finish a long rest."
+            ]
+        }
+    ]
+}
