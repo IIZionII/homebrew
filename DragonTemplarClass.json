@@ -301,9 +301,9 @@
                 "Ability Score Improvement|Dragon Templar|DragonTemplarClass|4|DragonTemplarClass",
                 "Extra Attack|Dragon Templar|DragonTemplarClass|5|DragonTemplarClass",
                 "Terrifying Roar|Dragon Templar|DragonTemplarClass|6|DragonTemplarClass",
-                "Blade And Tongue|Dragon Templar|DragonTemplarClass|7|DragonTemplarClass",
+                "Riding Adept|Dragon Templar|DragonTemplarClass|7|DragonTemplarClass",
                 "Ability Score Improvement|Dragon Templar|DragonTemplarClass|8|DragonTemplarClass",
-                "Riding Adept|Dragon Templar|DragonTemplarClass|9|DragonTemplarClass",
+                "Blade And Tongue|Dragon Templar|DragonTemplarClass|9|DragonTemplarClass",
                 "Draconic Fury|Dragon Templar|DragonTemplarClass|10|DragonTemplarClass",
                 "Riding Expert|Dragon Templar|DragonTemplarClass|11|DragonTemplarClass",
                 "Ability Score Improvement|Dragon Templar|DragonTemplarClass|12|DragonTemplarClass",
@@ -507,13 +507,13 @@
             ]
         },
         {
-            "name": "Blade And Tongue",
+            "name": "Riding Adept",
             "source": "DragonTemplarClass",
             "className": "Dragon Templar",
             "classSource": "DragonTemplarClass",
             "level": 7,
             "entries": [
-                "At 7th level, when taking the attack action, you may replace one weapon attack with a cantrip."
+                "At 7th level, you have nearly perfected mounted combat. While mounted on your dragon companion, you can move freely in the saddle of your dragon companion, capable of attacking creatures that would normally be out of range of your attacks due to your companion's size. Your companion also functions on its own, acting during your turn alongside your actions, instead of immediately after your turn. You may telepathically coordinate actions with your companion freely."
             ]
         },
         {
@@ -528,13 +528,13 @@
             ]
         },
         {
-            "name": "Riding Adept",
+            "name": "Blade And Tongue",
             "source": "DragonTemplarClass",
             "className": "Dragon Templar",
             "classSource": "DragonTemplarClass",
             "level": 9,
             "entries": [
-                "At 9th level, you have nearly perfected mounted combat. While mounted on your dragon companion, you can move freely in the saddle of your dragon companion, capable of attacking creatures that would normally be out of range of your attacks due to your companion's size. In addition, while mounted on your companion you score a critical hit on a 19 or 20. Your companion also functions on its own, acting during your turn alongside your actions, instead of immediately after your turn. You may telepathically coordinate actions with your companion freely."
+                "At 9th level, when you take the attack action, you may expend a use of your dragon's breath weapon to cast a cantrip as a bonus action. Additionally, while mounted on your dragon you score a critical hit on a 19 or 20."
             ]
         },
         {
