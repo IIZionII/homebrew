@@ -15,7 +15,6 @@
             }
         ]
     },
-    
     "class": [
         {
             "name": "Dragon Templar",
@@ -315,7 +314,39 @@
                 "Ability Score Improvement|Dragon Templar|DragonTemplarClass|19|DragonTemplarClass",
                 "Master Rider|Dragon Templar|DragonTemplarClass|20|DragonTemplarClass"
             ]
+        },
+
+
+
+
+        {
+            "name": "Dragon Companion",
+            "source": "DragonTemplarClass",
+            "isSidekick": true,
+            "classFeatures": [
+                "Breath Weapon|Dragon Companion|DragonTemplarClass|2|DragonTemplarClass",
+                "Size Increase|Dragon Companion|DragonTemplarClass|3|DragonTemplarClass",
+                "Ability Score Improvement|Dragon Companion|DragonTemplarClass|4|DragonTemplarClass",
+                "Breath Weapon Range Increase|Dragon Companion|DragonTemplarClass|5|DragonTemplarClass",
+                "Flying Speed Increase|Dragon Companion|DragonTemplarClass|5|DragonTemplarClass",
+                "Ability Score Improvement|Dragon Companion|DragonTemplarClass|6|DragonTemplarClass",
+                "Extra Attack|Dragon Companion|DragonTemplarClass|7|DragonTemplarClass",
+                "Ability Score Improvement|Dragon Companion|DragonTemplarClass|8|DragonTemplarClass",
+                "Darkvision Increase|Dragon Companion|DragonTemplarClass|9|DragonTemplarClass",
+                "Blind Sight|Dragon Companion|DragonTemplarClass|10|DragonTemplarClass",
+                "Breath Weapon Range Increase|Dragon Companion|DragonTemplarClass|11|DragonTemplarClass",
+                "Ability Score Improvement|Dragon Companion|DragonTemplarClass|12|DragonTemplarClass",
+                "Flying Speed Increase|Dragon Companion|DragonTemplarClass|13|DragonTemplarClass",
+                "Ability Score Improvement|Dragon Companion|DragonTemplarClass|14|DragonTemplarClass",
+                "Extra Attack (2)|Dragon Companion|DragonTemplarClass|15|DragonTemplarClass",
+                "Size Increase|Dragon Companion|DragonTemplarClass|15|DragonTemplarClass",
+                "Ability Score Improvement|Dragon Companion|DragonTemplarClass|16|DragonTemplarClass",
+                "Blind Sight Increase|Dragon Companion|DragonTemplarClass|18|DragonTemplarClass",
+                "Ability Score Improvement|Dragon Companion|DragonTemplarClass|19|DragonTemplarClass",
+                "Breath Weapon Range Increase|Dragon Companion|DragonTemplarClass|20|DragonTemplarClass"
+            ]
         }
+
     ],
     "classFeature": [
         {
@@ -639,6 +670,262 @@
             "level": 20,
             "entries": [
                 "At 20th level, your bond with your dragon becomes unbreakable. While mounted on your dragon, you and your dragon have advantage on all saving throws. Additionally, when you or your dragon are reduced to 0 hit points, you or your dragon can use their reaction to give the other half of their current hit points rounded down. The other immediately recovers that many hitpoints. Once you use this feature, you cannot do so again until you finish a short or long rest."
+            ]
+        },
+
+
+
+        {
+            "name": "Breath Weapon",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Companion",
+            "classSource": "DragonTemplarClass",
+            "level": 2,
+            "entries": [
+                "At 2nd level, the dragon companion gains access to it's breath weapon. The dragon companion's breath weapon has a damage type and saving throw based on its damage immunity; consult the table below. The dragon companion may use their action to expel their breath weapon. Any creature caught in its range must succeed on a saving throw with a dc set by the dragon companion's Charisma. On a failed save, they take an amount of damage of the appropriate type as shown below, or half as much on a successful one. The dragon companion's breath weapon can be used a number of times equal to its Constitution modifier (minimum of once), and regains all expended uses after a long rest.",
+                {
+                    "type": "abilityDc",
+                    "name": "Breath Weapon",
+                    "attributes": [
+                        "cha"
+                    ]
+                },
+                {
+                    "type": "abilityGeneric",
+                    "name": "Breath Weapon Damage",
+                    "text": "(level / 2)d6"
+                },
+                {
+                    "type": "table",
+                    "caption": "Breath Weapon Types",
+                    "colLabels": [
+                        "Damage Type",
+                        "Saving Throw",
+                        "Range"
+                    ],
+                    "colStyles": [
+                        "col-4",
+                        "col-4",
+                        "col-4"
+                    ],
+                    "rows": [
+                        [
+                            "Fire",
+                            "Dexterity",
+                            "15-foot cone"
+                        ],
+                        [
+                            "Cold",
+                            "Constitution",
+                            "15-foot cone"
+                        ],
+                        [
+                            "Poison",
+                            "Constitution",
+                            "15-foot cone"
+                        ],
+                        [
+                            "Lightning",
+                            "Dexterity",
+                            "30-foot by 5-foot line"
+                        ],
+                        [
+                            "Acid",
+                            "Dexterity",
+                            "30-foot by 5-foot line"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Size Increase",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Companion",
+            "classSource": "DragonTemplarClass",
+            "level": 3,
+            "entries": [
+                "At 3rd level, the dragon companion's size increased from Medium to Large, its AC increases by 1, its walking speed increases by 5 feet, and its flying speed increases by 10 feet. In addition, the damage dice for its Bite, Claw, and Tail attacks increase by one die size (d4,d6,d8,d10,etc)."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Companion",
+            "classSource": "DragonTemplarClass",
+            "level": 4,
+            "entries": [
+                "At 4th level, the dragon companion may choose one of the following options: increase one of its ability scores by 3, one of its ability scores by 2 and another by 1, or three of its ability scores by 1. The Dragon companion cannot increase an ability score above 24 using this feature."
+            ]
+        },
+        {
+            "name": "Breath Weapon Range Increase",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Companion",
+            "classSource": "DragonTemplarClass",
+            "level": 5,
+            "entries": [
+                "At 5th level, the range of the dragon companion's Breath Weapon feature increases by 15 feet for cones, or 30 feet for lines."
+            ]
+        },
+        {
+            "name": "Flying Speed Increase",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Companion",
+            "classSource": "DragonTemplarClass",
+            "level": 5,
+            "entries": [
+                "At 5th level, the dragon companion's flying speed increases by 15 feet."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Companion",
+            "classSource": "DragonTemplarClass",
+            "level": 6,
+            "entries": [
+                "At 6th level, the dragon companion may choose one of the following options: increase one of its ability scores by 3, one of its ability scores by 2 and another by 1, or three of its ability scores by 1. The Dragon companion cannot increase an ability score above 24 using this feature."
+            ]
+        },
+        {
+            "name": "Extra Attack",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Companion",
+            "classSource": "DragonTemplarClass",
+            "level": 7,
+            "entries": [
+                "At 7th level, the dragon companion can attack twice, instead of once, whenever it takes the Attack action on its turn. The dragon companion can only make one Bite attack per turn."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Companion",
+            "classSource": "DragonTemplarClass",
+            "level": 8,
+            "entries": [
+                "At 8th level, the dragon companion may choose one of the following options: increase one of its ability scores by 3, one of its ability scores by 2 and another by 1, or three of its ability scores by 1. The Dragon companion cannot increase an ability score above 24 using this feature."
+            ]
+        },
+        {
+            "name": "Darkvision Increase",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Companion",
+            "classSource": "DragonTemplarClass",
+            "level": 9,
+            "entries": [
+                "At 9th level, the dragon companion's darkvision becomes 120 feet."
+            ]
+        },
+        {
+            "name": "Blind Sight",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Companion",
+            "classSource": "DragonTemplarClass",
+            "level": 10,
+            "entries": [
+                "At 10th level, the dragon companion gains blindsight up to 30 feet."
+            ]
+        },
+        {
+            "name": "Breath Weapon Range Increase",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Companion",
+            "classSource": "DragonTemplarClass",
+            "level": 11,
+            "entries": [
+                "At 11th level, the range of the dragon companion's Breath Weapon feature increases by a further 15 feet for cones, or 30 feet for lines."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Companion",
+            "classSource": "DragonTemplarClass",
+            "level": 12,
+            "entries": [
+                "At 12th level, the dragon companion may choose one of the following options: increase one of its ability scores by 3, one of its ability scores by 2 and another by 1, or three of its ability scores by 1. The Dragon companion cannot increase an ability score above 24 using this feature."
+            ]
+        },
+        {
+            "name": "Flying Speed Increase",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Companion",
+            "classSource": "DragonTemplarClass",
+            "level": 13,
+            "entries": [
+                "At 13th level, the dragon companion's flying speed increases by a further 15 feet."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Companion",
+            "classSource": "DragonTemplarClass",
+            "level": 14,
+            "entries": [
+                "At 14th level, the dragon companion may choose one of the following options: increase one of its ability scores by 3, one of its ability scores by 2 and another by 1, or three of its ability scores by 1. The Dragon companion cannot increase an ability score above 24 using this feature."
+            ]
+        },
+        {
+            "name": "Extra Attack (2)",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Companion",
+            "classSource": "DragonTemplarClass",
+            "level": 15,
+            "entries": [
+                "At 15th level, the dragon companion can attack three times whenever it take the Attack action on its turn. The dragon companion can only make one Bite attack per turn."
+            ]
+        },
+        {
+            "name": "Size Increase",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Companion",
+            "classSource": "DragonTemplarClass",
+            "level": 15,
+            "entries": [
+                "At 15th level, the dragon companion's size increased from Large to Huge, its AC increases by 1, its walking speed increases by 5 feet, and its flying speed increases by 10 feet. In addition, the damage dice for its Bite, Claw, and Tail attacks increase by one die size (d4,d6,d8,d10,etc)."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Companion",
+            "classSource": "DragonTemplarClass",
+            "level": 16,
+            "entries": [
+                "At 16th level, the dragon companion may choose one of the following options: increase one of its ability scores by 3, one of its ability scores by 2 and another by 1, or three of its ability scores by 1. The Dragon companion cannot increase an ability score above 24 using this feature."
+            ]
+        },
+        {
+            "name": "Blind Sight Increase",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Companion",
+            "classSource": "DragonTemplarClass",
+            "level": 18,
+            "entries": [
+                "At 18th level, the dragon companion's blindsight increases to 60 feet."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Companion",
+            "classSource": "DragonTemplarClass",
+            "level": 19,
+            "entries": [
+                "At 19th level, the dragon companion may choose one of the following options: increase one of its ability scores by 3, one of its ability scores by 2 and another by 1, or three of its ability scores by 1. The Dragon companion cannot increase an ability score above 24 using this feature."
+            ]
+        },
+        {
+            "name": "Breath Weapon Range Increase",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Companion",
+            "classSource": "DragonTemplarClass",
+            "level": 20,
+            "entries": [
+                "At 20th level, the range of the dragon companion's Breath Weapon feature increases by a further 15 feet for cones, or 30 feet for lines."
             ]
         }
     ]
