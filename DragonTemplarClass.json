@@ -303,14 +303,14 @@
                 "Terrifying Roar|Dragon Templar|DragonTemplarClass|6|DragonTemplarClass",
                 "Riding Adept|Dragon Templar|DragonTemplarClass|7|DragonTemplarClass",
                 "Ability Score Improvement|Dragon Templar|DragonTemplarClass|8|DragonTemplarClass",
-                "Blade And Tongue|Dragon Templar|DragonTemplarClass|9|DragonTemplarClass",
+                "Blade and Tongue|Dragon Templar|DragonTemplarClass|9|DragonTemplarClass",
                 "Draconic Fury|Dragon Templar|DragonTemplarClass|10|DragonTemplarClass",
                 "Riding Expert|Dragon Templar|DragonTemplarClass|11|DragonTemplarClass",
                 "Ability Score Improvement|Dragon Templar|DragonTemplarClass|12|DragonTemplarClass",
-                "Bond Of Scale|Dragon Templar|DragonTemplarClass|13|DragonTemplarClass",
-                "Deepened Bond|Dragon Templar|DragonTemplarClass|14|DragonTemplarClass",
+                "Bond of Scale|Dragon Templar|DragonTemplarClass|13|DragonTemplarClass",
+                "Breath Protection|Dragon Templar|DragonTemplarClass|14|DragonTemplarClass",
                 "Ability Score Improvement|Dragon Templar|DragonTemplarClass|16|DragonTemplarClass",
-                "Breath Protection|Dragon Templar|DragonTemplarClass|17|DragonTemplarClass",
+                "Improved Blade and Tongue|Dragon Templar|DragonTemplarClass|17|DragonTemplarClass",
                 "Primal Bond|Dragon Templar|DragonTemplarClass|18|DragonTemplarClass",
                 "Ability Score Improvement|Dragon Templar|DragonTemplarClass|19|DragonTemplarClass",
                 "Master Rider|Dragon Templar|DragonTemplarClass|20|DragonTemplarClass"
@@ -335,7 +335,7 @@
             "classSource": "DragonTemplarClass",
             "level": 1,
             "entries": [
-                    "As a Dragon Templar, You have chosen to master the incorporation of the arcane arts into your combat style. Riders and mages alike seek you out for advice and assitance in all matters of the mystic arts. Starting at 1st level, assisted by your companion, you learn to use your sharp wit and tongue to assist your allies and assail your foes. Dragon Templars use the {@link sorcerer spell list|https://5e.tools/spells.html#blankhash,flstclass:sorcerer=1}.",
+                    "As a Dragon Templar, You have chosen to master the incorporation of the arcane arts into your combat style. Riders and mages alike seek you out for advice and assitance in all matters of the mystic arts. Starting at 1st level, assisted by your dragon, you learn to use your sharp wit and tongue to assist your allies and assail your foes. Dragon Templars use the {@link sorcerer spell list|https://5e.tools/spells.html#blankhash,flstclass:sorcerer=1}.",
                 {
                     "type": "entries",
                     "name":"Cantrips",
@@ -461,8 +461,8 @@
             "classSource": "DragonTemplarClass",
             "level": 3,
             "entries": [
-                "At 3rd level, you have now built up enough trust to ride with your dragon companion. You are capable of riding your companion while it is walking, however it is incapable of carrying you while flying under normal means. For example, your companion's body may not becapable of supporting your weight on top of it while in flight, but it may carry you between its claws, as if you were unconscious, incapable of taking normal actions. Alternatively, it may not trust you to be near its most vulnerable point while it is in flight.",
-                "Your telepathic bond has also grown, and now you and your dragon companion can communicate thoughts, emotions, feelings, and images telepathically within 1000ft."
+                "At 3rd level, you have now built up enough trust to ride with your dragon. You are capable of riding your dragon while it is walking, however it is incapable of carrying you while flying under normal means. For example, your dragon's body may not becapable of supporting your weight on top of it while in flight, but it may carry you between its claws, as if you were unconscious, incapable of taking normal actions. Alternatively, it may not trust you to be near its most vulnerable point while it is in flight.",
+                "Your telepathic bond has also grown, and now you and your dragon can communicate thoughts, emotions, feelings, and images telepathically within 1000ft."
             ]
         },
         {
@@ -503,7 +503,7 @@
             "classSource": "DragonTemplarClass",
             "level": 6,
             "entries": [
-                "At 6th level, You may, as an action, roar with your dragon in a terrifying display of unity and might. Consuming one of their breath weapon uses, you may have your companion pick any number of targets within 60ft of them to make a wisdom saving throw against their breath weapon DC, making any who fail frightened of both you and your dragon for 1 minute. Creatures may repeat this saving throw at the end of each of their turns."
+                "At 6th level, You may, as an action, roar with your dragon in a terrifying display of unity and might. Consuming one of their breath weapon uses, you may have your dragon pick any number of targets within 60ft of them to make a wisdom saving throw against their breath weapon DC, making any who fail frightened of both you and your dragon for 1 minute. Creatures may repeat this saving throw at the end of each of their turns."
             ]
         },
         {
@@ -513,7 +513,7 @@
             "classSource": "DragonTemplarClass",
             "level": 7,
             "entries": [
-                "At 7th level, you have nearly perfected mounted combat. While mounted on your dragon companion, you can move freely in the saddle of your dragon companion, capable of attacking creatures that would normally be out of range of your attacks due to your companion's size. Your companion also functions on its own, acting during your turn alongside your actions, instead of immediately after your turn. You may telepathically coordinate actions with your companion freely."
+                "At 7th level, you have nearly perfected mounted combat. While mounted on your dragon, you can move freely in the saddle of your dragon, capable of attacking creatures that would normally be out of range of your attacks due to your dragon's size. Your dragon also functions on its own, acting during your turn alongside your actions, instead of immediately after your turn. You may telepathically coordinate actions with your dragon freely."
             ]
         },
         {
@@ -528,7 +528,7 @@
             ]
         },
         {
-            "name": "Blade And Tongue",
+            "name": "Blade and Tongue",
             "source": "DragonTemplarClass",
             "className": "Dragon Templar",
             "classSource": "DragonTemplarClass",
@@ -554,7 +554,7 @@
             "classSource": "DragonTemplarClass",
             "level": 11,
             "entries": [
-                "At 11th level, you have become extremely comfortable on the back of your dragon companion and they are comfortable with you on them. You can now ride your companion while it uses its flying speed. Additionally, while mounted on your companion, you are considered under the sanctuary spell unless you use your action to make an attack roll or cast a damaging spell. You regain this feature at the start of your next turn. Any failed save to target you instead targets your companion."
+                "At 11th level, you have become extremely comfortable on the back of your dragon and they are comfortable with you on them. You can now ride your dragon while it uses its flying speed. Additionally, while mounted on your dragon, you are considered under the sanctuary spell unless you use your action to make an attack roll or cast a damaging spell. You regain this feature at the start of your next turn. Any failed save to target you instead targets your dragon."
             ]
         },
         {
@@ -569,7 +569,7 @@
             ]
         },
         {
-            "name": "Bond Of Scale",
+            "name": "Bond of Scale",
             "source": "DragonTemplarClass",
             "className": "Dragon Templar",
             "classSource": "DragonTemplarClass",
@@ -579,13 +579,13 @@
             ]
         },
         {
-            "name": "Deepened Bond",
+            "name": "Breath Protection",
             "source": "DragonTemplarClass",
             "className": "Dragon Templar",
             "classSource": "DragonTemplarClass",
             "level": 14,
             "entries": [
-                "At 14th level, your bond with your companion becomes more intimate and instinctual. If you or your dragon make an action that requires a saving throw of the other, you have advantage on that save. You can also now communicate within 5 miles."
+                "At 14th level, your familiarity and exposure to dragon's breath weapons has hardened your mind and body to their effects. You are immune to the damage type of your dragon's breath weapon, and you have advantage on saving throws against breath weapons."
             ]
         },
         {
@@ -600,13 +600,13 @@
             ]
         },
         {
-            "name": "Breath Protection",
+            "name": "Improved Blade and Tongue",
             "source": "DragonTemplarClass",
             "className": "Dragon Templar",
             "classSource": "DragonTemplarClass",
             "level": 17,
             "entries": [
-                "At 17th level, your familiarity and exposure to dragon's breath weapons has hardened your mind and body to their effects. You are immune to the damage type of your dragon's breath weapon, and you have advantage on saving throws against breath weapons."
+                "At 17th level, when you take the attack action, you may expend a use of your dragon's breath weapon to cast a spell of 3rd level or lower as a bonus action. You still expend the necessary spell slot."
             ]
         },
         {
@@ -616,7 +616,7 @@
             "classSource": "DragonTemplarClass",
             "level": 18,
             "entries": [
-                "At 18th level, Your bond with your dragon has grown ever deeper, and you can use the innate magic of your companion to manifest powerful spells. Choose a 6th level and 7th level spell. You may cast each of these with an expenditure of your dragon's breath weapon.",
+                "At 18th level, Your bond with your dragon has grown ever deeper, your telepathic bond persists regardless of the distance or whether you are on the same plane of existence. You also gain the ability to use the innate magic of your bond to manifest powerful spells. Choose a 6th level and 7th level spell. You may cast each of these with an expenditure of your dragon's breath weapon.",
                 "Once you use this feature, you cannot do so again until you finish a long rest."
             ]
         },
@@ -638,7 +638,7 @@
             "classSource": "DragonTemplarClass",
             "level": 20,
             "entries": [
-                "At 20th level, your bond with your companion becomes unbreakable. While mounted on your dragon companion, you and your companion have advantage on all saving throws. In addition, your telepathic bond persists regardless of the distance or whether you are on the same plane of existence. Finally, if you or your dragon companion would be reduced to 0 hit points or die, you or your companion can use your reaction to reduce their hit point maximum by half to prevent their companion from dying. The unconscious or dying companion regains an amount of hit points equal to the hit points reduced. You or your companion have your hitpoint maximum reduced until you finish a long rest."
+                "At 20th level, your bond with your dragon becomes unbreakable. While mounted on your dragon, you and your dragon have advantage on all saving throws. Additionally, when you or your dragon are reduced to 0 hit points, you or your dragon can use their reaction to give the other half of their current hit points rounded down. The other immediately recovers that many hitpoints. Once you use this feature, you cannot do so again until you finish a short or long rest."
             ]
         }
     ]
