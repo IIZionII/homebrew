@@ -10,7 +10,7 @@
                     "Helioz",
                     "Zion"
                 ],
-                "version": "3.0.0",
+                "version": "4.0.0",
                 "color": "5500aa"
             }
         ]
@@ -291,6 +291,7 @@
 				}
 			],
             "classFeatures": [
+                "Dragon Companion|Dragon Templar|DragonTemplarClass|1|DragonTemplarClass",
                 "Companion Bond|Dragon Templar|DragonTemplarClass|1|DragonTemplarClass",
                 "Spellcasting|Dragon Templar|DragonTemplarClass|1|DragonTemplarClass",
                 "Fighting Style|Dragon Templar|DragonTemplarClass|2|DragonTemplarClass",
@@ -349,6 +350,20 @@
 
     ],
     "classFeature": [
+        {
+            "name": "Dragon Companion",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Templar",
+            "classSource": "DragonTemplarClass",
+            "level": 1,
+            "entries": [
+                "You form a bond with your dragon companion. The stats, abilities, and rules for this companion are in the Dragon Companion sidekick class. Your dragon companion gains levels as you level, even if you take a level in a different class.",
+                "Your dragon companion considers you any ally, later seeing you as a friend, and eventually as a confidant the more levels you take in this class. The Dungeon Master has control over the companion as if it were an NPC, and it may have its opinion of you and other player characters shift depending on your levels in this class, and actions taken against itself.",
+                "In combat, the companion shares your initiative, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take another action, relying on your Companion Bond feature instead of spoken words. If you are incapacitated, the companion can take any action of its choice, not just Dodge, and focuses on defending you. If you are otherwise absent, it rolls its own initiative. You can also give it free reign of its action while you are conscious, allowing it take any action of its choice, however it may turn on allies who haven't been friendly towards it. Regaining control of your companion requires you to expend an action to make a DC 20 Wisdom saving throw, the companion remaining independent on a failed save.",
+                "If you die, your dragon companion also dies. If your dragon companion is ever slain, you must succeed a DC20 Wisdom saving throw or suffer the effects of long-term madness for 1d10 x 10 days (as described in Chapter 8 of the Dungeon Master's Guide), or until your dragon companion is brought back to life.",
+                "The magical bond you share allows you to return your dragon companion to life. With an expenditure of 50 gp worth of precious gems per dragon rider level and 8 hours of work, you can call forth your companion's spirit and use the innate magic of your bond to create a new body for it. You can return a dragon companion to life in this manner even if you do not possess any part of its body. Returning your dragon to life is a gruelling process however, and you gain a level of exhaustion upon completing it."
+            ]
+        },
         {
             "name": "Companion Bond",
             "source": "DragonTemplarClass",
@@ -544,7 +559,7 @@
             "classSource": "DragonTemplarClass",
             "level": 7,
             "entries": [
-                "At 7th level, you have nearly perfected mounted combat. While mounted on your dragon, you can move freely in the saddle of your dragon, capable of attacking creatures that would normally be out of range of your attacks due to your dragon's size. Your dragon also functions on its own, acting during your turn alongside your actions, instead of immediately after your turn. You may telepathically coordinate actions with your dragon freely."
+                "At 7th level, you have nearly perfected mounted combat. While mounted on your dragon, you can move freely in the saddle of your dragon, capable of attacking creatures that would normally be out of range of your attacks due to your dragon's size."
             ]
         },
         {
