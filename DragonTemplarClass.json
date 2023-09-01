@@ -580,7 +580,7 @@
             "classSource": "DragonTemplarClass",
             "level": 9,
             "entries": [
-                "At 9th level, when you take the attack action, you may expend a use of your dragon's breath weapon to cast a cantrip as a bonus action. Additionally, while mounted on your dragon you score a critical hit on a 19 or 20."
+                "At 9th level, when you take the attack action, you may expend a use of your dragon's breath weapon to cast a cantrip as a free action."
             ]
         },
         {
@@ -590,7 +590,7 @@
             "classSource": "DragonTemplarClass",
             "level": 10,
             "entries": [
-                "At 10th level, Your telepathic bond with your dragon has grown further still allows you communicate over 1 mile. This growth also allows you and your dragon to harness each other's rage, empowering your magic. Damage you or your dragon deal of the type of your dragon's breath weapon ignores resistance."
+                "At 10th level, Your telepathic bond with your dragon has grown further still allows you communicate over 1 mile. This growth also allows you and your dragon to harness each other's rage, empowering your magic. Damage you or your dragon deal of the type of your dragon's breath weapon ignores resistance, and treats immunity as resistance."
             ]
         },
         {
@@ -652,7 +652,7 @@
             "classSource": "DragonTemplarClass",
             "level": 17,
             "entries": [
-                "At 17th level, when you take the attack action, you may expend a use of your dragon's breath weapon to cast a spell of 3rd level or lower as a bonus action. You still expend the necessary spell slot."
+                "At 17th level, when you take the attack action, you may expend a use of your dragon's breath weapon to cast a spell of 3rd level or lower as a free action. You still expend the necessary spell slot."
             ]
         },
         {
