@@ -1,0 +1,919 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "DragonTemplarClass",
+                "abbreviation": "DT",
+                "full": "Dragon Templar Class",
+                "authors": [
+                    "Dartanian",
+                    "Helioz",
+                    "Zion"
+                ],
+                "version": "4.0.1",
+                "color": "5500aa"
+            }
+        ]
+    },
+    "class": [
+        {
+            "name": "Dragon Templar",
+            "source": "DragonTemplarClass",
+            "hd": {
+                "number": 1,
+                "faces": 10
+                },
+            "proficiency": [
+                "str",
+                "con"
+            ],
+            "spellcastingAbility": "cha",
+			"casterProgression": "1/2",
+			"preparedSpells": "<$level$> / 2 + <$cha_mod$>",
+            "startingProficiencies": {
+                "armor": [
+                    "light",
+                    "medium",
+                    "{@item shield|phb|shields}"
+                ],
+                "weapons": [
+                    "simple",
+                    "martial"
+                ],
+                "skills": [
+                    {
+                    "choose": {
+                        "from": [
+                            "animal handling"
+                        ],
+                        "count": 1
+                    }
+                    },
+                    {
+                    "choose": {
+                        "from": [
+                            "arcana",
+                            "athletics",
+                            "intimidation",
+                            "perception",
+                            "medicine"
+                        ],
+                        "count": 2
+                    }
+                    }
+                ]
+            },
+            "startingEquipment": {
+                "default": [
+                    "Any {@filter martial weapon|items|source=phb|category=basic|type=martial weapon}",
+                    "Any two {@filter simple weapons|items|source=phb|category=basic|type=simple weapon}",
+                    "(a) {@item leather armor|phb}, (b) {@item chain shirt|phb}",
+                    "{@item Leatherworker's tools|phb} and an {@item explorer's pack|phb}"
+                ],
+                "additionalFromBackground": true,
+                "goldAlternative": "{@dice 5d4 × 10|5d4 × 10|Starting Gold}",
+                "defualtData": [
+                    {
+                        "_":[
+                            {
+                                "equipmentType": "weaponMartial"
+                            }
+                        ]
+                    },
+                    {
+                        "_":[
+                            {
+                                "equipmentType": "weaponSimple"
+                            }
+                        ]
+                    },
+                    {
+						"a": [
+							"leather armor|phb"
+						],
+						"b": [
+							"chain shirt|phb"
+						]
+					},
+                    {
+                        "_":[
+                            "leatherworker's tools|phb",
+                            "explorer's pack|phb"
+                        ]
+                    }
+                ]
+            },
+            "classSpells": [
+                {
+                    "class": "Wizard",
+                    "source": "PHB"
+                }
+            ],
+            "classTableGroups": [
+                {
+                    "colLabels": [
+                        "Cantrips Known"
+                    ],
+                    "rows": [
+                        ["2"],
+                        ["2"],
+                        ["2"],
+                        ["3"],
+                        ["3"],
+                        ["3"],
+                        ["3"],
+                        ["3"],
+                        ["3"],
+                        ["4"],
+                        ["4"],
+                        ["4"],
+                        ["4"],
+                        ["4"],
+                        ["5"],
+                        ["5"],
+                        ["5"],
+                        ["5"],
+                        ["5"],
+                        ["5"]
+                    ]
+                },
+				{
+					"title": "Spell Slots per Spell Level",
+					"colLabels": [
+						"{@filter 1st|spells|level=1|class=sorcerer}",
+						"{@filter 2nd|spells|level=2|class=sorcerer}",
+						"{@filter 3rd|spells|level=3|class=sorcerer}",
+						"{@filter 4th|spells|level=4|class=sorcerer}",
+						"{@filter 5th|spells|level=5|class=sorcerer}"
+					],
+					"rowsSpellProgression": [
+						[
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							2,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2
+						]
+					]
+				}
+			],
+            "classFeatures": [
+                "Dragon Companion|Dragon Templar|DragonTemplarClass|1|DragonTemplarClass",
+                "Companion Bond|Dragon Templar|DragonTemplarClass|1|DragonTemplarClass",
+                "Spellcasting|Dragon Templar|DragonTemplarClass|1|DragonTemplarClass",
+                "Fighting Style|Dragon Templar|DragonTemplarClass|2|DragonTemplarClass",
+                "Eye For Detail|Dragon Templar|DragonTemplarClass|3|DragonTemplarClass",
+                "Riding Trainee|Dragon Templar|DragonTemplarClass|3|DragonTemplarClass",
+                "Dragon's Fang|Dragon Templar|DragonTemplarClass|3|DragonTemplarClass",
+                "Ability Score Improvement|Dragon Templar|DragonTemplarClass|4|DragonTemplarClass",
+                "Extra Attack|Dragon Templar|DragonTemplarClass|5|DragonTemplarClass",
+                "Terrifying Roar|Dragon Templar|DragonTemplarClass|6|DragonTemplarClass",
+                "Riding Adept|Dragon Templar|DragonTemplarClass|7|DragonTemplarClass",
+                "Ability Score Improvement|Dragon Templar|DragonTemplarClass|8|DragonTemplarClass",
+                "Blade and Tongue|Dragon Templar|DragonTemplarClass|9|DragonTemplarClass",
+                "Draconic Fury|Dragon Templar|DragonTemplarClass|10|DragonTemplarClass",
+                "Riding Expert|Dragon Templar|DragonTemplarClass|11|DragonTemplarClass",
+                "Ability Score Improvement|Dragon Templar|DragonTemplarClass|12|DragonTemplarClass",
+                "Bond of Scale|Dragon Templar|DragonTemplarClass|13|DragonTemplarClass",
+                "Breath Protection|Dragon Templar|DragonTemplarClass|14|DragonTemplarClass",
+                "Ability Score Improvement|Dragon Templar|DragonTemplarClass|16|DragonTemplarClass",
+                "Improved Blade and Tongue|Dragon Templar|DragonTemplarClass|17|DragonTemplarClass",
+                "Primal Bond|Dragon Templar|DragonTemplarClass|18|DragonTemplarClass",
+                "Ability Score Improvement|Dragon Templar|DragonTemplarClass|19|DragonTemplarClass",
+                "Master Rider|Dragon Templar|DragonTemplarClass|20|DragonTemplarClass"
+            ]
+        },
+
+
+
+
+        {
+            "name": "Dragon Companion",
+            "source": "DragonTemplarClass",
+            "isSidekick": true,
+            "classFeatures": [
+                "Breath Weapon|Dragon Companion|DragonTemplarClass|2|DragonTemplarClass",
+                "Size Increase|Dragon Companion|DragonTemplarClass|3|DragonTemplarClass",
+                "Ability Score Improvement|Dragon Companion|DragonTemplarClass|4|DragonTemplarClass",
+                "Breath Weapon Range Increase|Dragon Companion|DragonTemplarClass|5|DragonTemplarClass",
+                "Flying Speed Increase|Dragon Companion|DragonTemplarClass|5|DragonTemplarClass",
+                "Ability Score Improvement|Dragon Companion|DragonTemplarClass|6|DragonTemplarClass",
+                "Extra Attack|Dragon Companion|DragonTemplarClass|7|DragonTemplarClass",
+                "Ability Score Improvement|Dragon Companion|DragonTemplarClass|8|DragonTemplarClass",
+                "Darkvision Increase|Dragon Companion|DragonTemplarClass|9|DragonTemplarClass",
+                "Blind Sight|Dragon Companion|DragonTemplarClass|10|DragonTemplarClass",
+                "Breath Weapon Range Increase|Dragon Companion|DragonTemplarClass|11|DragonTemplarClass",
+                "Ability Score Improvement|Dragon Companion|DragonTemplarClass|12|DragonTemplarClass",
+                "Flying Speed Increase|Dragon Companion|DragonTemplarClass|13|DragonTemplarClass",
+                "Ability Score Improvement|Dragon Companion|DragonTemplarClass|14|DragonTemplarClass",
+                "Extra Attack (2)|Dragon Companion|DragonTemplarClass|15|DragonTemplarClass",
+                "Size Increase|Dragon Companion|DragonTemplarClass|15|DragonTemplarClass",
+                "Ability Score Improvement|Dragon Companion|DragonTemplarClass|16|DragonTemplarClass",
+                "Blind Sight Increase|Dragon Companion|DragonTemplarClass|18|DragonTemplarClass",
+                "Ability Score Improvement|Dragon Companion|DragonTemplarClass|19|DragonTemplarClass",
+                "Breath Weapon Range Increase|Dragon Companion|DragonTemplarClass|20|DragonTemplarClass"
+            ]
+        }
+
+    ],
+    "classFeature": [
+        {
+            "name": "Dragon Companion",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Templar",
+            "classSource": "DragonTemplarClass",
+            "level": 1,
+            "entries": [
+                "You form a bond with your dragon companion. The stats, abilities, and rules for this companion are in the Dragon Companion sidekick class. Your dragon companion gains levels as you level, even if you take a level in a different class.",
+                "Your dragon companion considers you any ally, later seeing you as a friend, and eventually as a confidant the more levels you take in this class. The Dungeon Master has control over the companion as if it were an NPC, and it may have its opinion of you and other player characters shift depending on your levels in this class, and actions taken against itself.",
+                "In combat, the companion shares your initiative, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take another action, relying on your Companion Bond feature instead of spoken words. If you are incapacitated, the companion can take any action of its choice, not just Dodge, and focuses on defending you. If you are otherwise absent, it rolls its own initiative. You can also give it free reign of its action while you are conscious, allowing it take any action of its choice, however it may turn on allies who haven't been friendly towards it. Regaining control of your companion requires you to expend an action to make a DC 20 Wisdom saving throw, the companion remaining independent on a failed save.",
+                "If you die, your dragon companion also dies. If your dragon companion is ever slain, you must succeed a DC20 Wisdom saving throw or suffer the effects of long-term madness for 1d10 x 10 days (as described in Chapter 8 of the Dungeon Master's Guide), or until your dragon companion is brought back to life.",
+                "The magical bond you share allows you to return your dragon companion to life. With an expenditure of 50 gp worth of precious gems per dragon rider level and 8 hours of work, you can call forth your companion's spirit and use the innate magic of your bond to create a new body for it. You can return a dragon companion to life in this manner even if you do not possess any part of its body. Returning your dragon to life is a gruelling process however, and you gain a level of exhaustion upon completing it."
+            ]
+        },
+        {
+            "name": "Companion Bond",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Templar",
+            "classSource": "DragonTemplarClass",
+            "level": 1,
+            "entries": [
+                "You and your dragon companion have a telepathic bond. While you are on the same plane of existence always know the direction to one another."
+            ]
+        },
+        {
+            "name": "Spellcasting",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Templar",
+            "classSource": "DragonTemplarClass",
+            "level": 1,
+            "entries": [
+                    "As a Dragon Templar, You have chosen to master the incorporation of the arcane arts into your combat style. Riders and mages alike seek you out for advice and assitance in all matters of the mystic arts. Starting at 1st level, assisted by your dragon, you learn to use your sharp wit and tongue to assist your allies and assail your foes. Dragon Templars use the {@link sorcerer spell list|https://5e.tools/spells.html#blankhash,flstclass:sorcerer=1}.",
+                {
+                    "type": "entries",
+                    "name":"Cantrips",
+                    "entries": [
+                        "You know two cantrips of your choice from the sorcerer spell list. You learn additional sorcerer cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Dragon Templar table."
+                    ]
+                },
+                {
+					"type": "entries",
+					"name": "Preparing and Casting Spells",
+					"entries": [
+						"The Dragon Templar Spellcasting table shows how many spell slots you have to cast your spells of 1st level or higher. To cast one of your sorcerer spells of 1st level or higher, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+						"You prepare the list of spells that are available for you to cast, choosing from the sorcerer spell list. When you do so, choose a number of sorcerer spells equal to your Charisma modifier + half your Dragon Templar level, rounded down (minimum of one spell). The spells must be of a level for which you have spell slots.",
+						"For example, if you are a 5th-level Dragon Templar, you have four 1st-level and two 2nd-level spell slots. With a Charisma of 14, your list of prepared spells can include four spells of 1st or 2nd-level, in any combination. If you prepare the 1st-level spell {@spell chromatic orb}, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.",
+						"You can change your list of prepared spells when you finish a long rest. Preparing a new list of sorcerer spells requires time spent in meditation: at least 1 minute per spell level for each spell on your list."
+					]
+				},
+                {
+					"type": "entries",
+					"name": "Spellcasting Ability",
+					"entries": [
+						"Charisma is your spellcasting ability for your Dragon Templar spells. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a Dragon Templar spell you cast and when making an attack roll with one.",
+						{
+							"type": "abilityDc",
+							"name": "Spell",
+							"attributes": [
+								"cha"
+							]
+						},
+						{
+							"type": "abilityAttackMod",
+							"name": "Spell",
+							"attributes": [
+								"cha"
+							]
+						}
+					]
+				}
+            ]
+        },
+        {
+            "name": "Fighting Style",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Templar",
+            "classSource": "DragonTemplarClass",
+            "level": 2,
+            "entries": [
+                "At 2nd level, you adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take the same Fighting Style option more than once, even if you get to choose again.",
+                {
+                    "type": "options",
+                    "count": 1,
+                    "entries": [
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Defense"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Dueling"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Great Weapon Fighting"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Protection"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Blind Fighting|TCE"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Interception|TCE"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Eye For Detail",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Templar",
+            "classSource": "DragonTemplarClass",
+            "level": 3,
+            "entries": [
+                "At 3rd level, you can easily discern the value and rarity of gems, art pieces, and magical items. You can spend 10 minutes studying a gem or art piece, after which you learn it's exact value. Additionally, if it is a gemstone, you learn what kind of gemstone it is. If it's an art piece, you learn how old it is. In addition, you can cast the identify spell, but only as a ritual. You don't require material components for the spell when you cast it this way."
+            ]
+        },
+        {
+            "name": "Riding Trainee",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Templar",
+            "classSource": "DragonTemplarClass",
+            "level": 3,
+            "entries": [
+                "At 3rd level, you have now built up enough trust to ride with your dragon. You are capable of riding your dragon while it is walking, however it is incapable of carrying you while flying under normal means. For example, your dragon's body may not becapable of supporting your weight on top of it while in flight, but it may carry you between its claws, as if you were unconscious, incapable of taking normal actions. Alternatively, it may not trust you to be near its most vulnerable point while it is in flight.",
+                "Your telepathic bond has also grown, and now you and your dragon can communicate thoughts, emotions, feelings, and images telepathically within 1000ft."
+            ]
+        },
+        {
+            "name": "Dragon's Fang",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Templar",
+            "classSource": "DragonTemplarClass",
+            "level": 3,
+            "entries": [
+                "At 3rd level, You can harvest a small amount of Dragon Breath with your own magic, and channel it into your weapon attacks. Upon landing an weapon attack, you may expend a spell slot to deal additional damage of your dragon's breath damage type. This damage is equal to 1d8 plus 1d8 per level of the spell slot expended. Ranged attacks deal half this additional damage instead."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Templar",
+            "classSource": "DragonTemplarClass",
+            "level": 4,
+            "entries": [
+                "When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ]
+        },
+        {
+            "name": "Extra Attack",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Templar",
+            "classSource": "DragonTemplarClass",
+            "level": 5,
+            "entries": [
+                "Beginning at 5th level, you can attack twice, instead of once, whenever you take the {@action Attack} action on your turn."
+            ]
+        },
+        {
+            "name": "Terrifying Roar",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Templar",
+            "classSource": "DragonTemplarClass",
+            "level": 6,
+            "entries": [
+                "At 6th level, You may, as an action, roar with your dragon in a terrifying display of unity and might. Consuming one of their breath weapon uses, you may have your dragon pick any number of targets within 60ft of them to make a wisdom saving throw against their breath weapon DC, making any who fail frightened of both you and your dragon for 1 minute. Creatures may repeat this saving throw at the end of each of their turns."
+            ]
+        },
+        {
+            "name": "Riding Adept",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Templar",
+            "classSource": "DragonTemplarClass",
+            "level": 7,
+            "entries": [
+                "At 7th level, you have nearly perfected mounted combat. While mounted on your dragon, you can move freely in the saddle of your dragon, capable of attacking creatures that would normally be out of range of your attacks due to your dragon's size."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Templar",
+            "classSource": "DragonTemplarClass",
+            "level": 8,
+            "entries": [
+                "When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ]
+        },
+        {
+            "name": "Blade and Tongue",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Templar",
+            "classSource": "DragonTemplarClass",
+            "level": 9,
+            "entries": [
+                "At 9th level, when you take the attack action, you may expend a use of your dragon's breath weapon to cast a cantrip as a free action."
+            ]
+        },
+        {
+            "name": "Draconic Fury",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Templar",
+            "classSource": "DragonTemplarClass",
+            "level": 10,
+            "entries": [
+                "At 10th level, Your telepathic bond with your dragon has grown further still allows you communicate over 1 mile. This growth also allows you and your dragon to harness each other's rage, empowering your magic. Damage you or your dragon deal of the type of your dragon's breath weapon ignores resistance, and treats immunity as resistance."
+            ]
+        },
+        {
+            "name": "Riding Expert",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Templar",
+            "classSource": "DragonTemplarClass",
+            "level": 11,
+            "entries": [
+                "At 11th level, you have become extremely comfortable on the back of your dragon and they are comfortable with you on them. You can now ride your dragon while it uses its flying speed. Additionally, while mounted on your dragon, you are considered under the sanctuary spell unless you use your action to make an attack roll or cast a damaging spell. You regain this feature at the start of your next turn. Any failed save to target you instead targets your dragon."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Templar",
+            "classSource": "DragonTemplarClass",
+            "level": 12,
+            "entries": [
+                "When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ]
+        },
+        {
+            "name": "Bond of Scale",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Templar",
+            "classSource": "DragonTemplarClass",
+            "level": 13,
+            "entries": [
+                "At 13th level, you may use an action and spend one of your highest level spell slots to regenerate half its level rounded up uses of your dragon's breath weapon. In addition, your dragon may use an action and spend uses of their breath weapon to rejuvenate all the spell slots of a specific level of your choice except the highest available, with the number of uses spent equalling the spell slot level restored plus one. You and your Dragon can only use this feature when you are within range of your telepathic bond."
+            ]
+        },
+        {
+            "name": "Breath Protection",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Templar",
+            "classSource": "DragonTemplarClass",
+            "level": 14,
+            "entries": [
+                "At 14th level, your familiarity and exposure to dragon's breath weapons has hardened your mind and body to their effects. You are immune to the damage type of your dragon's breath weapon, and you have advantage on saving throws against breath weapons."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Templar",
+            "classSource": "DragonTemplarClass",
+            "level": 16,
+            "entries": [
+                "When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ]
+        },
+        {
+            "name": "Improved Blade and Tongue",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Templar",
+            "classSource": "DragonTemplarClass",
+            "level": 17,
+            "entries": [
+                "At 17th level, when you take the attack action, you may expend a use of your dragon's breath weapon to cast a spell of 3rd level or lower as a free action. You still expend the necessary spell slot."
+            ]
+        },
+        {
+            "name": "Primal Bond",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Templar",
+            "classSource": "DragonTemplarClass",
+            "level": 18,
+            "entries": [
+                "At 18th level, Your bond with your dragon has grown ever deeper, your telepathic bond persists regardless of the distance or whether you are on the same plane of existence. You also gain the ability to use the innate magic of your bond to manifest powerful spells. Choose a 6th level and 7th level spell. You may cast each of these with an expenditure of your dragon's breath weapon.",
+                "Once you use this feature, you cannot do so again until you finish a long rest."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Templar",
+            "classSource": "DragonTemplarClass",
+            "level": 19,
+            "entries": [
+                "When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ]
+        },
+        {
+            "name": "Master Rider",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Templar",
+            "classSource": "DragonTemplarClass",
+            "level": 20,
+            "entries": [
+                "At 20th level, your bond with your dragon becomes unbreakable. While mounted on your dragon, you and your dragon have advantage on all saving throws. Additionally, when you or your dragon are reduced to 0 hit points, you or your dragon can use their reaction to give the other half of their current hit points rounded down. The other immediately recovers that many hitpoints. Once you use this feature, you cannot do so again until you finish a short or long rest."
+            ]
+        },
+
+
+
+        {
+            "name": "Breath Weapon",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Companion",
+            "classSource": "DragonTemplarClass",
+            "level": 2,
+            "entries": [
+                "At 2nd level, the dragon companion gains access to it's breath weapon. The dragon companion's breath weapon has a damage type and saving throw based on its damage immunity; consult the table below. The dragon companion may use their action to expel their breath weapon. Any creature caught in its range must succeed on a saving throw with a dc set by the dragon companion's Charisma. On a failed save, they take an amount of damage of the appropriate type as shown below, or half as much on a successful one. The dragon companion's breath weapon can be used a number of times equal to its Constitution modifier (minimum of once), and regains all expended uses after a long rest.",
+                {
+                    "type": "abilityDc",
+                    "name": "Breath Weapon",
+                    "attributes": [
+                        "cha"
+                    ]
+                },
+                {
+                    "type": "abilityGeneric",
+                    "name": "Breath Weapon Damage",
+                    "text": "(level / 2)d6"
+                },
+                {
+                    "type": "table",
+                    "caption": "Breath Weapon Types",
+                    "colLabels": [
+                        "Damage Type",
+                        "Saving Throw",
+                        "Range"
+                    ],
+                    "colStyles": [
+                        "col-4",
+                        "col-4",
+                        "col-4"
+                    ],
+                    "rows": [
+                        [
+                            "Fire",
+                            "Dexterity",
+                            "15-foot cone"
+                        ],
+                        [
+                            "Cold",
+                            "Constitution",
+                            "15-foot cone"
+                        ],
+                        [
+                            "Poison",
+                            "Constitution",
+                            "15-foot cone"
+                        ],
+                        [
+                            "Lightning",
+                            "Dexterity",
+                            "30-foot by 5-foot line"
+                        ],
+                        [
+                            "Acid",
+                            "Dexterity",
+                            "30-foot by 5-foot line"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Size Increase",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Companion",
+            "classSource": "DragonTemplarClass",
+            "level": 3,
+            "entries": [
+                "At 3rd level, the dragon companion's size increased from Medium to Large, its AC increases by 1, its walking speed increases by 5 feet, and its flying speed increases by 10 feet. In addition, the damage dice for its Bite, Claw, and Tail attacks increase by one die size (d4,d6,d8,d10,etc)."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Companion",
+            "classSource": "DragonTemplarClass",
+            "level": 4,
+            "entries": [
+                "At 4th level, the dragon companion may choose one of the following options: increase one of its ability scores by 3, one of its ability scores by 2 and another by 1, or three of its ability scores by 1. The Dragon companion cannot increase an ability score above 24 using this feature."
+            ]
+        },
+        {
+            "name": "Breath Weapon Range Increase",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Companion",
+            "classSource": "DragonTemplarClass",
+            "level": 5,
+            "entries": [
+                "At 5th level, the range of the dragon companion's Breath Weapon feature increases by 15 feet for cones, or 30 feet for lines."
+            ]
+        },
+        {
+            "name": "Flying Speed Increase",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Companion",
+            "classSource": "DragonTemplarClass",
+            "level": 5,
+            "entries": [
+                "At 5th level, the dragon companion's flying speed increases by 15 feet."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Companion",
+            "classSource": "DragonTemplarClass",
+            "level": 6,
+            "entries": [
+                "At 6th level, the dragon companion may choose one of the following options: increase one of its ability scores by 3, one of its ability scores by 2 and another by 1, or three of its ability scores by 1. The Dragon companion cannot increase an ability score above 24 using this feature."
+            ]
+        },
+        {
+            "name": "Extra Attack",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Companion",
+            "classSource": "DragonTemplarClass",
+            "level": 7,
+            "entries": [
+                "At 7th level, the dragon companion can attack twice, instead of once, whenever it takes the Attack action on its turn. The dragon companion can only make one Bite attack per turn."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Companion",
+            "classSource": "DragonTemplarClass",
+            "level": 8,
+            "entries": [
+                "At 8th level, the dragon companion may choose one of the following options: increase one of its ability scores by 3, one of its ability scores by 2 and another by 1, or three of its ability scores by 1. The Dragon companion cannot increase an ability score above 24 using this feature."
+            ]
+        },
+        {
+            "name": "Darkvision Increase",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Companion",
+            "classSource": "DragonTemplarClass",
+            "level": 9,
+            "entries": [
+                "At 9th level, the dragon companion's darkvision becomes 120 feet."
+            ]
+        },
+        {
+            "name": "Blind Sight",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Companion",
+            "classSource": "DragonTemplarClass",
+            "level": 10,
+            "entries": [
+                "At 10th level, the dragon companion gains blindsight up to 30 feet."
+            ]
+        },
+        {
+            "name": "Breath Weapon Range Increase",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Companion",
+            "classSource": "DragonTemplarClass",
+            "level": 11,
+            "entries": [
+                "At 11th level, the range of the dragon companion's Breath Weapon feature increases by a further 15 feet for cones, or 30 feet for lines."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Companion",
+            "classSource": "DragonTemplarClass",
+            "level": 12,
+            "entries": [
+                "At 12th level, the dragon companion may choose one of the following options: increase one of its ability scores by 3, one of its ability scores by 2 and another by 1, or three of its ability scores by 1. The Dragon companion cannot increase an ability score above 24 using this feature."
+            ]
+        },
+        {
+            "name": "Flying Speed Increase",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Companion",
+            "classSource": "DragonTemplarClass",
+            "level": 13,
+            "entries": [
+                "At 13th level, the dragon companion's flying speed increases by a further 15 feet."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Companion",
+            "classSource": "DragonTemplarClass",
+            "level": 14,
+            "entries": [
+                "At 14th level, the dragon companion may choose one of the following options: increase one of its ability scores by 3, one of its ability scores by 2 and another by 1, or three of its ability scores by 1. The Dragon companion cannot increase an ability score above 24 using this feature."
+            ]
+        },
+        {
+            "name": "Extra Attack (2)",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Companion",
+            "classSource": "DragonTemplarClass",
+            "level": 15,
+            "entries": [
+                "At 15th level, the dragon companion can attack three times whenever it take the Attack action on its turn. The dragon companion can only make one Bite attack per turn."
+            ]
+        },
+        {
+            "name": "Size Increase",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Companion",
+            "classSource": "DragonTemplarClass",
+            "level": 15,
+            "entries": [
+                "At 15th level, the dragon companion's size increased from Large to Huge, its AC increases by 1, its walking speed increases by 5 feet, and its flying speed increases by 10 feet. In addition, the damage dice for its Bite, Claw, and Tail attacks increase by one die size (d4,d6,d8,d10,etc)."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Companion",
+            "classSource": "DragonTemplarClass",
+            "level": 16,
+            "entries": [
+                "At 16th level, the dragon companion may choose one of the following options: increase one of its ability scores by 3, one of its ability scores by 2 and another by 1, or three of its ability scores by 1. The Dragon companion cannot increase an ability score above 24 using this feature."
+            ]
+        },
+        {
+            "name": "Blind Sight Increase",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Companion",
+            "classSource": "DragonTemplarClass",
+            "level": 18,
+            "entries": [
+                "At 18th level, the dragon companion's blindsight increases to 60 feet."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Companion",
+            "classSource": "DragonTemplarClass",
+            "level": 19,
+            "entries": [
+                "At 19th level, the dragon companion may choose one of the following options: increase one of its ability scores by 3, one of its ability scores by 2 and another by 1, or three of its ability scores by 1. The Dragon companion cannot increase an ability score above 24 using this feature."
+            ]
+        },
+        {
+            "name": "Breath Weapon Range Increase",
+            "source": "DragonTemplarClass",
+            "className": "Dragon Companion",
+            "classSource": "DragonTemplarClass",
+            "level": 20,
+            "entries": [
+                "At 20th level, the range of the dragon companion's Breath Weapon feature increases by a further 15 feet for cones, or 30 feet for lines."
+            ]
+        }
+    ]
+}
