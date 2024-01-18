@@ -10,10 +10,12 @@
                     "Helioz",
                     "Zion"
                 ],
-                "version": "4.0.1",
+                "version": "4.1.0",
                 "color": "5500aa"
             }
-        ]
+        ],
+        "dateAdded": 0,
+        "dateLastModified": 0
     },
     "class": [
         {
@@ -42,24 +44,17 @@
                 ],
                 "skills": [
                     {
-                    "choose": {
-                        "from": [
-                            "animal handling"
-                        ],
-                        "count": 1
-                    }
-                    },
-                    {
-                    "choose": {
-                        "from": [
-                            "arcana",
-                            "athletics",
-                            "intimidation",
-                            "perception",
-                            "medicine"
-                        ],
-                        "count": 2
-                    }
+                        "animal handling": true,
+                        "choose": {
+                            "from": [
+                                "arcana",
+                                "athletics",
+                                "intimidation",
+                                "perception",
+                                "medicine"
+                            ],
+                            "count": 2
+                        }
                     }
                 ]
             },
@@ -72,7 +67,7 @@
                 ],
                 "additionalFromBackground": true,
                 "goldAlternative": "{@dice 5d4 × 10|5d4 × 10|Starting Gold}",
-                "defualtData": [
+                "defaultData": [
                     {
                         "_":[
                             {
@@ -105,8 +100,8 @@
             },
             "classSpells": [
                 {
-                    "class": "Wizard",
-                    "source": "PHB"
+                    "className": "sorcerer",
+                    "classSource": "PHB"
                 }
             ],
             "classTableGroups": [
