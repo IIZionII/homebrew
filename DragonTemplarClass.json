@@ -10,7 +10,7 @@
                     "Helioz",
                     "Zion"
                 ],
-                "version": "4.0.1",
+                "version": "4.0.2",
                 "color": "5500aa"
             }
         ]
@@ -42,12 +42,7 @@
                 ],
                 "skills": [
                     {
-                    "choose": {
-                        "from": [
-                            "animal handling"
-                        ],
-                        "count": 1
-                    }
+                        "animal handling": true
                     },
                     {
                     "choose": {
