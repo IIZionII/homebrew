@@ -42,19 +42,17 @@
                 ],
                 "skills": [
                     {
-                        "animal handling": true
-                    },
-                    {
-                    "choose": {
-                        "from": [
-                            "arcana",
-                            "athletics",
-                            "intimidation",
-                            "perception",
-                            "medicine"
-                        ],
-                        "count": 2
-                    }
+                        "animal handling": true,
+                        "choose": {
+                            "from": [
+                                "arcana",
+                                "athletics",
+                                "intimidation",
+                                "perception",
+                                "medicine"
+                            ],
+                            "count": 2
+                        }
                     }
                 ]
             },
