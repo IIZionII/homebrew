@@ -10,7 +10,7 @@
                     "Helioz",
                     "Zion"
                 ],
-                "version": "4.0.0",
+                "version": "4.0.1",
                 "color": "5500aa"
             }
         ]
@@ -436,10 +436,6 @@
                     "entries": [
                         {
                             "type": "refOptionalfeature",
-                            "optionalfeature": "Close Quarters Shooter|UALightDarkUnderdark"
-                        },
-                        {
-                            "type": "refOptionalfeature",
                             "optionalfeature": "Defense"
                         },
                         {
@@ -452,31 +448,7 @@
                         },
                         {
                             "type": "refOptionalfeature",
-                            "optionalfeature": "Mariner|UAWaterborneAdventures"
-                        },
-                        {
-                            "type": "refOptionalfeature",
                             "optionalfeature": "Protection"
-                        },
-                        {
-                            "type": "refOptionalfeature",
-                            "optionalfeature": "Tunnel Fighter|UALightDarkUnderdark"
-                        },
-                        {
-                            "type": "refOptionalfeature",
-                            "optionalfeature": "Blind Fighting|UAClassFeatureVariants"
-                        },
-                        {
-                            "type": "refOptionalfeature",
-                            "optionalfeature": "Interception|UAClassFeatureVariants"
-                        },
-                        {
-                            "type": "refOptionalfeature",
-                            "optionalfeature": "Thrown Weapon Fighting|UAClassFeatureVariants"
-                        },
-                        {
-                            "type": "refOptionalfeature",
-                            "optionalfeature": "Unarmed Fighting|UAClassFeatureVariants"
                         },
                         {
                             "type": "refOptionalfeature",
