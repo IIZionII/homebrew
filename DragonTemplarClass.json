@@ -10,10 +10,12 @@
                     "Helioz",
                     "Zion"
                 ],
-                "version": "4.0.2",
+                "version": "4.1.0",
                 "color": "5500aa"
             }
-        ]
+        ],
+        "dateAdded": 0,
+        "dateLastModified": 0
     },
     "class": [
         {
@@ -65,7 +67,7 @@
                 ],
                 "additionalFromBackground": true,
                 "goldAlternative": "{@dice 5d4 × 10|5d4 × 10|Starting Gold}",
-                "defualtData": [
+                "defaultData": [
                     {
                         "_":[
                             {
@@ -98,8 +100,8 @@
             },
             "classSpells": [
                 {
-                    "class": "Wizard",
-                    "source": "PHB"
+                    "className": "sorcerer",
+                    "classSource": "PHB"
                 }
             ],
             "classTableGroups": [
