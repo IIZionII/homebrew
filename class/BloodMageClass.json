@@ -8,10 +8,12 @@
             "authors": [
                 "Zion"
             ],
-            "version": "2.0.0",
+            "version": "2.1.0",
             "color": "f44444"
         }
-    ]
+    ],
+    "dateAdded": 0,
+    "dateLastModified": 1
 },
 
 "class": [
@@ -61,8 +63,8 @@
         },
         "classSpells": [
             {
-                "class": "Wizard",
-                "source": "PHB"
+                "className": "Wizard",
+                "classSource": "PHB"
             }
         ],
         "classTableGroups": [
@@ -124,14 +126,26 @@
         "classFeatures": [
             "Extract Soul|Blood Mage|BloodMageClass|1|BloodMageClass",
             "Spellcasting|Blood Mage|BloodMageClass|1|BloodMageClass",
-            "Manipulation Focus|Blood Mage|BloodMageClass|2|BloodMageClass",
+            {
+                "classFeature": "Manipulation Focus|Blood Mage|BloodMageClass|2|BloodMageClass",
+                "gainSubclassFeature": true
+            },
             "Ability Score Improvement|Blood Mage|BloodMageClass|4|BloodMageClass",
             "Absorb Soul|Blood Mage|BloodMageClass|5|BloodMageClass",
-            "Manipulation Focus Feature|Blood Mage|BloodMageClass|6|BloodMageClass",
+            {
+                "classFeature": "Manipulation Focus|Blood Mage|BloodMageClass|6|BloodMageClass",
+                "gainSubclassFeature": true
+            },
             "Ability Score Improvement|Blood Mage|BloodMageClass|8|BloodMageClass",
-            "Manipulation Focus Feature|Blood Mage|BloodMageClass|10|BloodMageClass",
+            {
+                "classFeature": "Manipulation Focus|Blood Mage|BloodMageClass|10|BloodMageClass",
+                "gainSubclassFeature": true
+            },
             "Ability Score Improvement|Blood Mage|BloodMageClass|12|BloodMageClass",
-            "Manipulation Focus Feature|Blood Mage|BloodMageClass|14|BloodMageClass",
+            {
+                "classFeature": "Manipulation Focus|Blood Mage|BloodMageClass|14|BloodMageClass",
+                "gainSubclassFeature": true
+            },
             "Ability Score Improvement|Blood Mage|BloodMageClass|16|BloodMageClass",
             "Ability Score Improvement|Blood Mage|BloodMageClass|19|BloodMageClass",
             "Perfect Soul Exchange|Blood Mage|BloodMageClass|20|BloodMageClass"
@@ -350,8 +364,7 @@
         "level": 2,
         "entries": [
             "When you reach 2nd level, you choose a Manipulation Focus from the list of available Manipulation Foci, shaping your manipulation of soul. Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level."
-        ],
-        "gainSubclassFeature": true
+        ]
     },
     {
         "name": "Ability Score Improvement",
@@ -383,8 +396,7 @@
         "level": 6,
         "entries": [
             "At 6th level, you gain a feature granted by your Manipulation Focus."
-        ],
-        "gainSubclassFeature": true
+        ]
     },
     {
         "name": "Ability Score Improvement",
@@ -405,8 +417,7 @@
         "level": 10,
         "entries": [
             "At 10th level, you gain a feature granted by your Manipulation Focus."
-        ],
-        "gainSubclassFeature": true
+        ]
     },
     {
         "name": "Ability Score Improvement",
@@ -427,8 +438,7 @@
         "level": 14,
         "entries": [
             "At 14th level, you gain a feature granted by your Manipulation Focus."
-        ],
-        "gainSubclassFeature": true
+        ]
     },
     {
         "name": "Ability Score Improvement",
