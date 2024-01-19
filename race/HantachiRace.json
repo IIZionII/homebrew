@@ -3,17 +3,17 @@
     "sources": [
         {
             "json": "HantachiRace",
-            "abbreviation": "HRR",
+            "abbreviation": "HR",
             "full": "Hantachi Race",
             "authors": [
                 "Zion"
             ],
-            "version": "1.0.0",
+            "version": "1.0.1",
             "color": "f5f540"
         }
     ],
     "dateAdded": 0,
-    "dateLastModified": 0
+    "dateLastModified": 1
 },
 
 "race": [
