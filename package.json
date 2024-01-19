@@ -25,7 +25,7 @@
 	"bugs": {
 		"url": "https://github.com/IIZionII/5e-homebrew/issues"
 	},
-	"homepage": "https://github.com/TheGiddyLimit/homebrew#readme",
+	"homepage": "https://github.com/IIZionII/5e-homebrew#readme",
 	"devDependencies": {
 		"5etools-utils": "^0.9.58",
 		"commander": "^9.4.1",
