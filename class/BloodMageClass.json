@@ -8,12 +8,12 @@
             "authors": [
                 "Zion"
             ],
-            "version": "2.1.0",
+            "version": "2.1.1",
             "color": "f44444"
         }
     ],
     "dateAdded": 0,
-    "dateLastModified": 1
+    "dateLastModified": 2
 },
 
 "class": [
@@ -133,17 +133,17 @@
             "Ability Score Improvement|Blood Mage|BloodMageClass|4|BloodMageClass",
             "Absorb Soul|Blood Mage|BloodMageClass|5|BloodMageClass",
             {
-                "classFeature": "Manipulation Focus|Blood Mage|BloodMageClass|6|BloodMageClass",
+                "classFeature": "Manipulation Focus Feature|Blood Mage|BloodMageClass|6|BloodMageClass",
                 "gainSubclassFeature": true
             },
             "Ability Score Improvement|Blood Mage|BloodMageClass|8|BloodMageClass",
             {
-                "classFeature": "Manipulation Focus|Blood Mage|BloodMageClass|10|BloodMageClass",
+                "classFeature": "Manipulation Focus Feature|Blood Mage|BloodMageClass|10|BloodMageClass",
                 "gainSubclassFeature": true
             },
             "Ability Score Improvement|Blood Mage|BloodMageClass|12|BloodMageClass",
             {
-                "classFeature": "Manipulation Focus|Blood Mage|BloodMageClass|14|BloodMageClass",
+                "classFeature": "Manipulation Focus Feature|Blood Mage|BloodMageClass|14|BloodMageClass",
                 "gainSubclassFeature": true
             },
             "Ability Score Improvement|Blood Mage|BloodMageClass|16|BloodMageClass",
