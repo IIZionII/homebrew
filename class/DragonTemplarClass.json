@@ -10,7 +10,7 @@
                     "Helioz",
                     "Zion"
                 ],
-                "version": "4.2.1",
+                "version": "4.2.2",
                 "color": "5500aa"
             }
         ],
@@ -268,11 +268,11 @@
 				{
 					"title": "Spell Slots per Spell Level",
 					"colLabels": [
-						"{@filter 1st|spells|level=1|class=sorcerer}",
-						"{@filter 2nd|spells|level=2|class=sorcerer}",
-						"{@filter 3rd|spells|level=3|class=sorcerer}",
-						"{@filter 4th|spells|level=4|class=sorcerer}",
-						"{@filter 5th|spells|level=5|class=sorcerer}"
+						"{@filter 1st|spells|level=1|class=DragonTemplarClass}",
+						"{@filter 2nd|spells|level=2|class=DragonTemplarClass}",
+						"{@filter 3rd|spells|level=3|class=DragonTemplarClass}",
+						"{@filter 4th|spells|level=4|class=DragonTemplarClass}",
+						"{@filter 5th|spells|level=5|class=DragonTemplarClass}"
 					],
 					"rowsSpellProgression": [
 						[
