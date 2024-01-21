@@ -10,12 +10,12 @@
                     "Helioz",
                     "Zion"
                 ],
-                "version": "4.2.3",
+                "version": "4.2.4",
                 "color": "5500aa"
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1
+        "dateLastModified": 2
     },
     "class": [
         {
@@ -272,7 +272,7 @@
 						"{@filter 2nd|spells|level=2|class=Dragon Templar}",
 						"{@filter 3rd|spells|level=3|class=Dragon Templar}",
 						"{@filter 4th|spells|level=4|class=Dragon Templar}",
-						"{@filter 5th|spells|level=5|class=Dragon Templar|DT}"
+						"{@filter 5th|spells|level=5|class=Dragon Templar}"
 					],
 					"rowsSpellProgression": [
 						[
