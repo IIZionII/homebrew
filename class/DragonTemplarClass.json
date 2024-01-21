@@ -10,12 +10,12 @@
                     "Helioz",
                     "Zion"
                 ],
-                "version": "4.2.4",
+                "version": "4.2.5",
                 "color": "5500aa"
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 2
+        "dateLastModified": 3
     },
     "class": [
         {
@@ -268,11 +268,11 @@
 				{
 					"title": "Spell Slots per Spell Level",
 					"colLabels": [
-						"{@filter 1st|spells|level=1|class=Dragon Templar}",
-						"{@filter 2nd|spells|level=2|class=Dragon Templar}",
-						"{@filter 3rd|spells|level=3|class=Dragon Templar}",
-						"{@filter 4th|spells|level=4|class=Dragon Templar}",
-						"{@filter 5th|spells|level=5|class=Dragon Templar}"
+						"{@filter 1st|spells|level=1|class=Dragon Templar (DT)}",
+						"{@filter 2nd|spells|level=2|class=Dragon Templar (DT)}",
+						"{@filter 3rd|spells|level=3|class=Dragon Templar (DT)}",
+						"{@filter 4th|spells|level=4|class=Dragon Templar (DT)}",
+						"{@filter 5th|spells|level=5|class=Dragon Templar (DT)}"
 					],
 					"rowsSpellProgression": [
 						[
