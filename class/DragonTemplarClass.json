@@ -10,12 +10,12 @@
 					"Helioz",
 					"Zion"
 				],
-				"version": "4.2.6",
+				"version": "4.2.7",
 				"color": "5500aa"
 			}
 		],
 		"dateAdded": 0,
-		"dateLastModified": 4
+		"dateLastModified": 5
 	},
 	"class": [
 		{
@@ -549,17 +549,17 @@
 					"type": "entries",
 					"name": "Cantrips",
 					"entries": [
-						"You know two cantrips of your choice from the sorcerer spell list. You learn additional sorcerer cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Dragon Templar table."
+						"You know two cantrips of your choice from the dragon templar spell list. You learn additional dragon templar cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Dragon Templar table."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Preparing and Casting Spells",
 					"entries": [
-						"The Dragon Templar Spellcasting table shows how many spell slots you have to cast your spells of 1st level or higher. To cast one of your sorcerer spells of 1st level or higher, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
-						"You prepare the list of spells that are available for you to cast, choosing from the sorcerer spell list. When you do so, choose a number of sorcerer spells equal to your Charisma modifier + half your Dragon Templar level, rounded down (minimum of one spell). The spells must be of a level for which you have spell slots.",
+						"The Dragon Templar Spellcasting table shows how many spell slots you have to cast your spells of 1st level or higher. To cast one of your dragon templar spells of 1st level or higher, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+						"You prepare the list of spells that are available for you to cast, choosing from the dragon templar spell list. When you do so, choose a number of dragon templar spells equal to your Charisma modifier + half your Dragon Templar level, rounded down (minimum of one spell). The spells must be of a level for which you have spell slots.",
 						"For example, if you are a 5th-level Dragon Templar, you have four 1st-level and two 2nd-level spell slots. With a Charisma of 14, your list of prepared spells can include four spells of 1st or 2nd-level, in any combination. If you prepare the 1st-level spell {@spell chromatic orb}, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.",
-						"You can change your list of prepared spells when you finish a long rest. Preparing a new list of sorcerer spells requires time spent in meditation: at least 1 minute per spell level for each spell on your list."
+						"You can change your list of prepared spells when you finish a long rest. Preparing a new list of dragon templar spells requires time spent in meditation: at least 1 minute per spell level for each spell on your list."
 					]
 				},
 				{
