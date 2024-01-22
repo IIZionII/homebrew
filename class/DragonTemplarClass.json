@@ -10,12 +10,12 @@
 					"Helioz",
 					"Zion"
 				],
-				"version": "4.2.8",
+				"version": "4.3.0",
 				"color": "5500aa"
 			}
 		],
 		"dateAdded": 0,
-		"dateLastModified": 6
+		"dateLastModified": 7
 	},
 	"class": [
 		{
@@ -527,7 +527,7 @@
 				"Your dragon companion considers you any ally, later seeing you as a friend, and eventually as a confidant the more levels you take in this class. The Dungeon Master has control over the companion as if it were an NPC, and it may have its opinion of you and other player characters shift depending on your levels in this class, and actions taken against itself.",
 				"In combat, the companion shares your initiative, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take another action, relying on your Companion Bond feature instead of spoken words. If you are incapacitated, the companion can take any action of its choice, not just Dodge, and focuses on defending you. If you are otherwise absent, it rolls its own initiative. You can also give it free reign of its action while you are conscious, allowing it take any action of its choice, however it may turn on allies who haven't been friendly towards it. Regaining control of your companion requires you to expend an action to make a DC 20 Wisdom saving throw, the companion remaining independent on a failed save.",
 				"If you die, your dragon companion also dies. If your dragon companion is ever slain, you must succeed a DC20 Wisdom saving throw or suffer the effects of long-term madness for 1d10 x 10 days (as described in Chapter 8 of the Dungeon Master's Guide), or until your dragon companion is brought back to life.",
-				"The magical bond you share allows you to return your dragon companion to life. With an expenditure of 50 gp worth of precious gems per dragon rider level and 8 hours of work, you can call forth your companion's spirit and use the innate magic of your bond to create a new body for it. You can return a dragon companion to life in this manner even if you do not possess any part of its body. Returning your dragon to life is a gruelling process however, and you gain a level of exhaustion upon completing it."
+				"The magical bond you share allows you to return your dragon companion to life. With an expenditure of 300 gp worth of precious gems per dragon rider level and 8 hours of work, you can call forth your companion's spirit and use the innate magic of your bond to create a new body for it. You can return a dragon companion to life in this manner even if you do not possess any part of its body. Returning your dragon to life is a gruelling process however, and you gain a level of exhaustion upon completing it."
 			]
 		},
 		{
@@ -537,7 +537,7 @@
 			"classSource": "DragonTemplarClass",
 			"level": 1,
 			"entries": [
-				"You and your dragon companion have a telepathic bond. While you are on the same plane of existence always know the direction to one another."
+				"You and your dragon companion have a telepathic bond. While you are on the same plane of existence always know the direction to one another. Additionally you and your dragon can communicate thoughts, emotions, feelings, and images telepathically within 60ft."
 			]
 		},
 		{
@@ -547,7 +547,7 @@
 			"classSource": "DragonTemplarClass",
 			"level": 1,
 			"entries": [
-				"As a Dragon Templar, You have chosen to master the incorporation of the arcane arts into your combat style. Riders and mages alike seek you out for advice and assitance in all matters of the mystic arts. Starting at 1st level, assisted by your dragon, you learn to use your sharp wit and tongue to assist your allies and assail your foes. Dragon Templars use the {@filter dragon templar spell list|spells|class=Dragon Templar (DT)}.",
+				"As a Dragon Templar, your bond allows you to harness your dragon's innate magical power, shaping it with your will into spells. Starting at 1st level, assisted by your dragon, you learn to use your sharp wit and tongue to assist your allies and assail your foes. Dragon Templars use the {@filter dragon templar spell list|spells|class=Dragon Templar (DT)}.",
 				{
 					"type": "entries",
 					"name": "Cantrips",
@@ -646,7 +646,7 @@
 			"level": 3,
 			"entries": [
 				"At 3rd level, you have now built up enough trust to ride with your dragon. You are capable of riding your dragon while it is walking, however it is incapable of carrying you while flying under normal means. For example, your dragon's body may not becapable of supporting your weight on top of it while in flight, but it may carry you between its claws, as if you were unconscious, incapable of taking normal actions. Alternatively, it may not trust you to be near its most vulnerable point while it is in flight.",
-				"Your telepathic bond has also grown, and now you and your dragon can communicate thoughts, emotions, feelings, and images telepathically within 1000ft."
+				"Your telepathic bond has also grown, allowing you and your dragon to communicate thoughts, emotions, feelings, and images telepathically within 1000ft."
 			]
 		},
 		{
