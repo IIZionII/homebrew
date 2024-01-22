@@ -10,12 +10,12 @@
 					"Helioz",
 					"Zion"
 				],
-				"version": "4.2.7",
+				"version": "4.2.8",
 				"color": "5500aa"
 			}
 		],
 		"dateAdded": 0,
-		"dateLastModified": 5
+		"dateLastModified": 6
 	},
 	"class": [
 		{
@@ -41,6 +41,9 @@
 				"weapons": [
 					"simple",
 					"martial"
+				],
+				"tools": [
+					"Leatherworker's tools"
 				],
 				"skills": [
 					{
