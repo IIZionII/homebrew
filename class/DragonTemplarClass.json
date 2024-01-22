@@ -10,12 +10,12 @@
 					"Helioz",
 					"Zion"
 				],
-				"version": "4.2.5",
+				"version": "4.2.6",
 				"color": "5500aa"
 			}
 		],
 		"dateAdded": 0,
-		"dateLastModified": 3
+		"dateLastModified": 4
 	},
 	"class": [
 		{
@@ -544,7 +544,7 @@
 			"classSource": "DragonTemplarClass",
 			"level": 1,
 			"entries": [
-				"As a Dragon Templar, You have chosen to master the incorporation of the arcane arts into your combat style. Riders and mages alike seek you out for advice and assitance in all matters of the mystic arts. Starting at 1st level, assisted by your dragon, you learn to use your sharp wit and tongue to assist your allies and assail your foes. Dragon Templars use the {@link sorcerer spell list|https://5e.tools/spells.html#blankhash,flstclass:sorcerer=1}.",
+				"As a Dragon Templar, You have chosen to master the incorporation of the arcane arts into your combat style. Riders and mages alike seek you out for advice and assitance in all matters of the mystic arts. Starting at 1st level, assisted by your dragon, you learn to use your sharp wit and tongue to assist your allies and assail your foes. Dragon Templars use the {@filter dragon templar spell list|spells|class=Dragon Templar (DT)}.",
 				{
 					"type": "entries",
 					"name": "Cantrips",
