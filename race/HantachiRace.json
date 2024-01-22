@@ -1,81 +1,80 @@
 {
-"_meta": {
-    "sources": [
-        {
-            "json": "HantachiRace",
-            "abbreviation": "HR",
-            "full": "Hantachi Race",
-            "authors": [
-                "Zion"
-            ],
-            "version": "1.0.3",
-            "color": "f5f540"
-        }
-    ],
-    "dateAdded": 0,
-    "dateLastModified": 1
-},
-
-"race": [
-    {
-        "name": "Hantachi",
-        "source": "HantachiRace",
-        "lineage": "VRGR",
-        "creatureTypes": [
-            "humanoid"
-        ],
-        "size": [
-            "M"
-        ],
-        "age": {
-            "mature": 20,
-            "max": 500
-        },
-        "languageProficiencies": [
-            {
-                "common": true,
-                "anyStandard": 2
-            }
-        ],
-        "speed": 30,
-        "darkvision": 120,
-        "entries": [
-            {
-                "type": "entries",
-                "name": "Age",
-                "entries": [
-                    "Hantachi, influenced by their divine heritage, mature similarly to humans but live much longer. Often living into their third and fourth centuries."
-                ]
-            },
-            {
-                "type": "entries",
-                "name": "Size",
-                "entries": [
-                    "Your size is Medium. Hantachi largely resemble humans in size and appearance."
-                ]
-            },
-            {
-                "type": "entries",
-                "name": "Darkvision",
-                "entries": [
-                    "You can see in dim light and darkness within 120 feet of you as if it were bright light. You can see in color in that darkness as you would in bright light."
-                ]
-            },
-            {
-                "type": "entries",
-                "name": "Divine Command",
-                "entries": [
-                    "Your godly ancestry has given your words the power to assert your will over other creatures. Starting at 1st level, you may cast the {@spell Command} spell with this trait. Starting at 3rd level, you may cast the {@spell Suggestion} spell with this trait, without requiring a material component. Starting at 5th level, you may cast the {@spell Fast Friends|AI} spell with this trait. Once you cast any of these spells with this trait, you can't cast that spell with it again until you finish a short or long rest. You can also cast these spells using spell slots you have of the appropriate level."
-                ]
-            },
-            {
-                "type": "entries",
-                "name": "Divine Visage",
-                "entries": [
-                    "When you reach 3rd level, you can use a bonus action call upon the power of your bloodline to alter alter yourself, harkening back to your Okita ancestry. This transformation morphs you into your ideal form, typically much taller and much more attractive than a normal human. During your transformation your body glows with divine radiance, you shed bright light in a 5-foot radius and dim light for an additional 5 feet. This light deepens the colors around you making them more vibrant, almost causing them to glow. Your transformation augments your abilities with your divine power giving you a +1 bonus to your AC, all ability checks, and attack rolls. Additionally during your transformation you may once, as a bonus action, assert your divine control over a number of objects equal to your proficiency bonus, as you would with the {@spell Animate Objects} spell. Your transformation lasts for 1 minute or until you end it as a bonus action. Once you transform using this feature, you can't use it again until you finish a long rest."
-                ]
-            }
-        ]
-    }
-]
+	"_meta": {
+		"sources": [
+			{
+				"json": "HantachiRace",
+				"abbreviation": "HR",
+				"full": "Hantachi Race",
+				"authors": [
+					"Zion"
+				],
+				"version": "1.0.3",
+				"color": "f5f540"
+			}
+		],
+		"dateAdded": 0,
+		"dateLastModified": 1
+	},
+	"race": [
+		{
+			"name": "Hantachi",
+			"source": "HantachiRace",
+			"lineage": "VRGR",
+			"creatureTypes": [
+				"humanoid"
+			],
+			"size": [
+				"M"
+			],
+			"age": {
+				"mature": 20,
+				"max": 500
+			},
+			"languageProficiencies": [
+				{
+					"common": true,
+					"anyStandard": 2
+				}
+			],
+			"speed": 30,
+			"darkvision": 120,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Hantachi, influenced by their divine heritage, mature similarly to humans but live much longer. Often living into their third and fourth centuries."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Your size is Medium. Hantachi largely resemble humans in size and appearance."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light and darkness within 120 feet of you as if it were bright light. You can see in color in that darkness as you would in bright light."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Divine Command",
+					"entries": [
+						"Your godly ancestry has given your words the power to assert your will over other creatures. Starting at 1st level, you may cast the {@spell Command} spell with this trait. Starting at 3rd level, you may cast the {@spell Suggestion} spell with this trait, without requiring a material component. Starting at 5th level, you may cast the {@spell Fast Friends|AI} spell with this trait. Once you cast any of these spells with this trait, you can't cast that spell with it again until you finish a short or long rest. You can also cast these spells using spell slots you have of the appropriate level."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Divine Visage",
+					"entries": [
+						"When you reach 3rd level, you can use a bonus action call upon the power of your bloodline to alter alter yourself, harkening back to your Okita ancestry. This transformation morphs you into your ideal form, typically much taller and much more attractive than a normal human. During your transformation your body glows with divine radiance, you shed bright light in a 5-foot radius and dim light for an additional 5 feet. This light deepens the colors around you making them more vibrant, almost causing them to glow. Your transformation augments your abilities with your divine power giving you a +1 bonus to your AC, all ability checks, and attack rolls. Additionally during your transformation you may once, as a bonus action, assert your divine control over a number of objects equal to your proficiency bonus, as you would with the {@spell Animate Objects} spell. Your transformation lasts for 1 minute or until you end it as a bonus action. Once you transform using this feature, you can't use it again until you finish a long rest."
+					]
+				}
+			]
+		}
+	]
 }
