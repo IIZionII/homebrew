@@ -33,9 +33,10 @@
 				{
 					"choose": {
 						"from": [
-							"musical instrument",
-							"gaming set"
-						]
+							"anyMusicalInstrument",
+							"anyGamingSet"
+						],
+                        "count": 1
 					}
 				}
 			],
@@ -102,7 +103,7 @@
 					"type": "entries",
 					"entries": [
 						"Exiled from the land and the dynasty that you once called home, you have wandered lands far and wide, seeking a new purpose to fill the void left behind by the absence of your royal title. While you have begun to learn to accept your new lot in life, there is certainly a long road ahead to become the person you were meant to be. But be warned, my liege, your past, and the demons therein, threaten the very path you have sworn to walk.",
-						"Over the course of your travels, you have learned to trust in the common folk, and they, in turn, have learned to trust you as well. Although you are afforded the trust of the people, they recognize you as a man from a strange land. Certain characteristics of yours stand out as decidedly foreign. It might be your belongings, your looks, the way you speak, perhaps all three."
+						"Over the course of your travels, you have learned to trust in the common folk, and they, in turn, have learned to trust you as well. Although you are afforded the trust of the people, they recognize you as a man from a strange land. Certain characteristics of yours stand out as decidedly foreign. It might be your belongings, your looks, the way you speak or carry yourself, perhaps all of these, but regardless, your persona is one not of this continent."
 					]
 				},
 				{
