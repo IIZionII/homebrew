@@ -34,7 +34,7 @@
 					"choose": {
 						"from": [
 							"anyMusicalInstrument",
-							"anyGamingSet"
+							"setGaming"
 						],
                         "count": 1
 					}
