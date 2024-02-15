@@ -12,12 +12,12 @@
 				"convertedBy": [
 					"Zion"
 				],
-				"version": "1.0.2",
+				"version": "1.0.3",
 				"color": "000022"
 			}
 		],
 		"dateAdded": 0,
-		"dateLastModified": 1
+		"dateLastModified": 2
 	},
 	"background": [
 		{
@@ -34,7 +34,10 @@
 					"choose": {
 						"from": [
 							"anyMusicalInstrument",
-							"setGaming"
+							"dice set",
+                            "dragonchess set",
+                            "three-dragon ante set",
+                            "playing card set"
 						],
                         "count": 1
 					}
