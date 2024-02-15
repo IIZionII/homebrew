@@ -1,0 +1,68 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "AmoienLanguages",
+				"abbreviation": "AL",
+				"full": "Amoien Languages",
+				"authors": [
+					"Zion"
+				],
+				"version": "1.0.0",
+				"color": "ffee88"
+			}
+		],
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+	"language": [
+		{
+			"name": "Amoien",
+			"source": "AmoienLanguages",
+			"type": "standard",
+			"entries": [
+				"The common language of Amoien, spread by the Windrose Guild. Most people speak Amoien."
+			]
+		},
+		{
+			"name": "Adruan",
+			"source": "AmoienLanguages",
+			"type": "standard",
+			"entries": [
+				"The language spoken by the short folk of the Adrugon Empire. Most of Eurain speaks Adruan due to the spread of the Adrugon Empire."
+			]
+		},
+		{
+			"name": "Nokaltian",
+			"source": "AmoienLanguages",
+			"type": "exotic",
+			"entries": [
+				"An offshoot of Adruan, Nokaltian is the language of the Nokaltis. Because they do not teach their language to outsiders their capital of Zem Kalna is the only place where Nokaltian is spoken significantly."
+			]
+		},
+		{
+			"name": "Esivi",
+			"source": "AmoienLanguages",
+			"type": "exotic",
+			"entries": [
+				"The native language of the isolatory stone elves of Ilifir."
+			]
+		},
+		{
+			"name": "Okitan",
+			"source": "AmoienLanguages",
+			"type": "exotic",
+			"entries": [
+				"The divine language intrisically known by the Okita, the gods of the west."
+			]
+		},
+		{
+			"name": "Vrukrean",
+			"source": "AmoienLanguages",
+			"type": "standard",
+			"entries": [
+				"The language of Vrukre. Used heavily by the nobility in formal government actions, and by merchants throughout national trade."
+			]
+		}
+	]
+}
