@@ -34,10 +34,7 @@
 					"choose": {
 						"from": [
 							"anyMusicalInstrument",
-							"dice set",
-                            "dragonchess set",
-                            "three-dragon ante set",
-                            "playing card set"
+							"gaming set"
 						],
                         "count": 1
 					}
