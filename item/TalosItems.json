@@ -1,0 +1,32 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "TalosItems",
+				"abbreviation": "TI",
+				"full": "Talos Items",
+				"authors": [
+					"Zion"
+				],
+				"version": "1.0.0",
+				"color": "79edb7"
+			}
+		],
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+	"item": [
+		{
+			"name": "Talos Mini Titan®",
+			"rarity": "unknown (magic)",
+			"source": "TalosItems",
+			"wondrous": true,
+			"reqAttune": "by a small creature with an Intelligence equal to 10 or greater",
+			"entries": [
+				"An attuned creature can take a turn to enter and pilot the Talos Mini Titan®, it also requires a turn to stop piloting and leave the Talos Mini Titan®. While piloting the Talos Mini Titan® your speed becomes 30 feet, your AC is equal to 1 + the AC from any armor incorporated into its frame, and your size is considered medium.",
+				"You can alter the Talos Mini Titan® with armor with which you have proficiency. To alter the Talos Mini Titan®, you must incorporate it into its frame over the course of 1 hour, during which you must have immediate access to the Talos Mini Titan® and the armor being incorporated into it. To undo this alteration, you must spend 1 hour removing it. You can rest while altering the Talos Mini Titan® in this way.",
+				"Other magical items can also be incorporated into the Talos Mini Titan®, to do so requires the same process as the one followed for armor. While those magical items are incorporated their attunement requirements carry over to the Talos Mini Titan®."
+			]
+		}
+	]
+}

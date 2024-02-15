@@ -36,7 +36,7 @@
 			"darkvision": 120,
 			"resist": [
 				"poison",
-                "necrotic"
+				"necrotic"
 			],
 			"additionalSpells": [
 				{
