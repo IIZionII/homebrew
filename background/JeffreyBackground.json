@@ -1,42 +1,41 @@
 {
-    "_meta": {
-        "sources": [
-            {
-                "json": "JeffreyBackground",
-                "abbreviation": "AM",
-                "full": "Aspiring Merchant",
-                "authors": [
-                    "Zion"
-                ],
-                "version": "1.0.0",
-                "color": "9fed74"
-            }
-        ],
-        "dateAdded": 0,
-        "dateLastModified": 0
-    },
-
-    "background": [
-        {
-            "name": "Aspiring Merchant",
-            "source": "JeffreyBackground",
-            "skillProficiencies": [
-                {
-                    "investigation": true,
-                    "persuasion": true
-                }
-            ],
-            "toolProficiencies": [
+	"_meta": {
+		"sources": [
+			{
+				"json": "JeffreyBackground",
+				"abbreviation": "AM",
+				"full": "Aspiring Merchant",
+				"authors": [
+					"Zion"
+				],
+				"version": "1.0.0",
+				"color": "9fed74"
+			}
+		],
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+	"background": [
+		{
+			"name": "Aspiring Merchant",
+			"source": "JeffreyBackground",
+			"skillProficiencies": [
+				{
+					"investigation": true,
+					"persuasion": true
+				}
+			],
+			"toolProficiencies": [
 				{
 					"anyArtisansTool": 1
 				}
 			],
-            "languageProficiencies": [
+			"languageProficiencies": [
 				{
 					"anyStandard": 1
 				}
 			],
-            "startingEquipment": [
+			"startingEquipment": [
 				{
 					"_": [
 						{
@@ -51,8 +50,8 @@
 					]
 				}
 			],
-            "entries": [
-                {
+			"entries": [
+				{
 					"type": "list",
 					"style": "list-hang-notitle",
 					"items": [
@@ -78,14 +77,14 @@
 						}
 					]
 				},
-                {
-                    "name": "Overview",
-                    "type": "entries",
-                    "entries": [
-                        "You were kicked out of your apprenticeship after an experiment gone haywire, having lost a leg in the process. After that event you spent the money and resources you saved building a prototype of a mechanized exoskeleton. That prototype awarded you your first patent, the Talos Mini Titan®. With this accomplishment you decided to travel to Boreain to make a name for yourself helping with Vrukre's war against Ilifir and the advanced technology they are rumored to be using."
-                    ]
-                },
-                {
+				{
+					"name": "Overview",
+					"type": "entries",
+					"entries": [
+						"You were kicked out of your apprenticeship after an experiment gone haywire, having lost a leg in the process. After that event you spent the money and resources you saved building a prototype of a mechanized exoskeleton. That prototype awarded you your first patent, the Talos Mini Titan®. With this accomplishment you decided to travel to Boreain to make a name for yourself helping with Vrukre's war against Ilifir and the advanced technology they are rumored to be using."
+					]
+				},
+				{
 					"name": "Feature: Supply Chain",
 					"type": "entries",
 					"entries": [
@@ -95,7 +94,7 @@
 						"isFeature": true
 					}
 				}
-            ]
-        }
-    ]
+			]
+		}
+	]
 }

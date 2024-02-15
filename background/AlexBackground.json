@@ -1,36 +1,35 @@
 {
-    "_meta": {
-        "sources": [
-            {
-                "json": "AlexBackground",
-                "abbreviation": "BP",
-                "full": "Banished Prince",
-                "authors": [
-                    "Zion",
-                    "Dartanian"
-                ],
-                "convertedBy": [
-                    "Zion"
-                ],
-                "version": "1.0.0",
-                "color": "000022"
-            }
-        ],
-        "dateAdded": 0,
-        "dateLastModified": 0
-    },
-
-    "background": [
-        {
-            "name": "Banished Prince",
-            "source": "AlexBackground",
-            "skillProficiencies": [
-                {
-                    "history": true,
-                    "persuasion": true
-                }
-            ],
-            "toolProficiencies": [
+	"_meta": {
+		"sources": [
+			{
+				"json": "AlexBackground",
+				"abbreviation": "BP",
+				"full": "Banished Prince",
+				"authors": [
+					"Zion",
+					"Dartanian"
+				],
+				"convertedBy": [
+					"Zion"
+				],
+				"version": "1.0.0",
+				"color": "000022"
+			}
+		],
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+	"background": [
+		{
+			"name": "Banished Prince",
+			"source": "AlexBackground",
+			"skillProficiencies": [
+				{
+					"history": true,
+					"persuasion": true
+				}
+			],
+			"toolProficiencies": [
 				{
 					"choose": {
 						"from": [
@@ -40,12 +39,12 @@
 					}
 				}
 			],
-            "languageProficiencies": [
+			"languageProficiencies": [
 				{
 					"anyStandard": 1
 				}
 			],
-            "startingEquipment": [
+			"startingEquipment": [
 				{
 					"_": [
 						"traveler's clothes|phb",
@@ -71,8 +70,8 @@
 					]
 				}
 			],
-            "entries": [
-                {
+			"entries": [
+				{
 					"type": "list",
 					"style": "list-hang-notitle",
 					"items": [
@@ -98,15 +97,15 @@
 						}
 					]
 				},
-                {
-                    "name": "Overview",
-                    "type": "entries",
-                    "entries": [
-                        "Exiled from the land and the dynasty that you once called home, you have wandered lands far and wide, seeking a new purpose to fill the void left behind by the absence of your royal title. While you have begun to learn to accept your new lot in life, there is certainly a long road ahead to become the person you were meant to be. But be warned, my liege, your past, and the demons therein, threaten the very path you have sworn to walk.",
-                        "Over the course of your travels, you have learned to trust in the common folk, and they, in turn, have learned to trust you as well. Although you are afforded the trust of the people, they recognize you as a man from a strange land. Certain characteristics of yours stand out as decidedly foreign. It might be your belongings, your looks, the way you speak, perhaps all three."
-                    ]
-                },
-                {
+				{
+					"name": "Overview",
+					"type": "entries",
+					"entries": [
+						"Exiled from the land and the dynasty that you once called home, you have wandered lands far and wide, seeking a new purpose to fill the void left behind by the absence of your royal title. While you have begun to learn to accept your new lot in life, there is certainly a long road ahead to become the person you were meant to be. But be warned, my liege, your past, and the demons therein, threaten the very path you have sworn to walk.",
+						"Over the course of your travels, you have learned to trust in the common folk, and they, in turn, have learned to trust you as well. Although you are afforded the trust of the people, they recognize you as a man from a strange land. Certain characteristics of yours stand out as decidedly foreign. It might be your belongings, your looks, the way you speak, perhaps all three."
+					]
+				},
+				{
 					"name": "Feature: Stranger From a Strange Land",
 					"type": "entries",
 					"entries": [
@@ -117,7 +116,7 @@
 						"isFeature": true
 					}
 				},
-                {
+				{
 					"name": "Feature: Draconic Renown",
 					"type": "entries",
 					"entries": [
@@ -127,7 +126,7 @@
 						"isFeature": true
 					}
 				}
-            ]
-        }
-    ]
+			]
+		}
+	]
 }
