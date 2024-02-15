@@ -8,12 +8,12 @@
 				"authors": [
 					"Zion"
 				],
-				"version": "1.0.1",
+				"version": "1.0.2",
 				"color": "cce0e0"
 			}
 		],
 		"dateAdded": 0,
-		"dateLastModified": 1
+		"dateLastModified": 2
 	},
 	"race": [
 		{
@@ -101,9 +101,7 @@
 						"You have resistance to necrotic damage. Additionally when you are in dim light or darkness, as a bonus action, you can use the shadows to mend yourself by expending a number of hit dice up to your proficiency bonus, and healing by the amount rolled. You may use this feature once per long rest."
 					]
 				}
-			],
-			"hasFluff": true,
-			"hasFluffImages": true
+			]
 		}
 	]
 }
