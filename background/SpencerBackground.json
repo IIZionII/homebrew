@@ -8,12 +8,12 @@
 				"authors": [
 					"Zion"
 				],
-				"version": "1.0.0",
+				"version": "1.0.1",
 				"color": "80bbff"
 			}
 		],
 		"dateAdded": 0,
-		"dateLastModified": 0
+		"dateLastModified": 1
 	},
 	"background": [
 		{
@@ -72,7 +72,7 @@
 						{
 							"type": "item",
 							"name": "Equipment:",
-							"entry": "One {@filter gaming set|items|source=phb|miscellaneous=mundane|type=gaming set}, a set of {@item common clothes|phb}, and a {@item pouch|phb} containing 5sp"
+							"entry": "One {@filter gaming set|items|source=phb|miscellaneous=mundane|type=gaming set}, a set of {@item common clothes|phb}, and a {@item pouch|phb} containing 5 sp"
 						}
 					]
 				},
