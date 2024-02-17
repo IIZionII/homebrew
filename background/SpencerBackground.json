@@ -1,0 +1,99 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "SpencerBackground",
+				"abbreviation": "ES",
+				"full": "Escaped Slave",
+				"authors": [
+					"Zion"
+				],
+				"version": "1.0.0",
+				"color": "80bbff"
+			}
+		],
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+	"background": [
+		{
+			"name": "Escaped Slave",
+			"source": "SpencerBackground",
+			"skillProficiencies": [
+				{
+					"deception": true,
+					"insight": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"gaming set": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"anyStandard": 1
+				}
+			],
+			"startingEquipment": [
+				{
+					"_": [
+						{
+							"equipmentType": "setGaming"
+						},
+						"common clothes|phb",
+						{
+							"item": "pouch|phb",
+							"containsValue": 50
+						}
+					]
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Skill Proficiencies:",
+							"entry": "{@skill Deception}, {@skill Insight}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies:",
+							"entry": "Any one {@filter gaming set|items|source=phb|miscellaneous=mundane|type=gaming set} of your choice"
+						},
+						{
+							"type": "item",
+							"name": "Languages:",
+							"entry": "Any one of your choice"
+						},
+						{
+							"type": "item",
+							"name": "Equipment:",
+							"entry": "One {@filter gaming set|items|source=phb|miscellaneous=mundane|type=gaming set}, a set of {@item common clothes|phb}, and a {@item pouch|phb} containing 5sp"
+						}
+					]
+				},
+				{
+					"name": "Overview",
+					"type": "entries",
+					"entries": [
+						"You spent much of your youth gambling, and racking up debt with the wrong people. Your father always told you that your habits would come back to bite you, and they did. You were forced to become a debt slave, where you were sold around to various owners. Eventually you ended up in the underground pit fighting scene forced to fight to survive, never given the chance to pay off your debts. But spotting an opportunity you fled, escaping from your slavery. Not knowing who you might be hunted by or how long you could avoid them, you decided to travel back home to spend what time you could with your father."
+					]
+				},
+				{
+					"name": "Feature: Never Tell Me the Odds",
+					"type": "entries",
+					"entries": [
+						"Odds and probability are your bread and butter. During downtime activities that involve games of chance or figuring odds on the best plan, you can get a solid sense of which choice is likely the best one and which opportunities seem too good to be true, at the DM's determination."
+					],
+					"data": {
+						"isFeature": true
+					}
+				}
+			]
+		}
+	]
+}
