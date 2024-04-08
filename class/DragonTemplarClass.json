@@ -10,12 +10,12 @@
 					"Helioz",
 					"Zion"
 				],
-				"version": "4.4.1",
+				"version": "4.4.2",
 				"color": "5500aa"
 			}
 		],
 		"dateAdded": 0,
-		"dateLastModified": 10
+		"dateLastModified": 11
 	},
 	"class": [
 		{
@@ -491,6 +491,24 @@
 			"name": "Dragon Companion",
 			"source": "DragonTemplarClass",
 			"isSidekick": true,
+			"hd": {
+				"number": 2,
+				"faces": 12
+			},
+			"proficiency": [
+				"str",
+				"con",
+				"wis",
+				"cha"
+			],
+			"startingProficiencies": {
+				"skills": [
+					{
+						"perception": true,
+						"stealth": true
+					}
+				]
+			},
 			"classFeatures": [
 				"Breath Weapon|Dragon Companion|DragonTemplarClass|2|DragonTemplarClass",
 				"Size Increase|Dragon Companion|DragonTemplarClass|3|DragonTemplarClass",
