@@ -10,12 +10,12 @@
 					"Helioz",
 					"Zion"
 				],
-				"version": "4.4.0",
+				"version": "4.4.1",
 				"color": "5500aa"
 			}
 		],
 		"dateAdded": 0,
-		"dateLastModified": 9
+		"dateLastModified": 10
 	},
 	"class": [
 		{
@@ -937,7 +937,7 @@
 				{
 					"type": "abilityGeneric",
 					"name": "Breath Weapon Damage",
-					"text": "(level / 2)d6 rounded down"
+					"text": "1d6 per level"
 				},
 				{
 					"type": "table",
