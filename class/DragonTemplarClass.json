@@ -551,7 +551,9 @@
 								"ac": [
 									{
 										"ac": 15,
-										"from": ["10 + CON mod + prof. bonus"]
+										"from": [
+											"10 + CON mod + prof. bonus"
+										]
 									}
 								],
 								"hp": {

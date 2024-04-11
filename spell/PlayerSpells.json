@@ -1,0 +1,63 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "PlayerSpells",
+				"abbreviation": "PS",
+				"full": "Player Created Spells",
+				"authors": [
+					"Zion",
+					"Dogmeat"
+				],
+				"convertedBy": [
+					"Zion"
+				],
+				"version": "1.0.0",
+				"color": "d99900"
+			}
+		],
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+	"spell": [
+		{
+			"name": "Ephemeral Infusion",
+			"level": 3,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Desperate times call for desperate measures, and while you have not the time to properly infuse another item, the situation demands it. Drawing from the energy imbued in the gemstone you are holding you infuse the item you touch by affixing the magic with your will and focus.",
+				"When you cast this spell you may touch a valid item and apply one of your known infusions to it. This infusion does not count against your maximum number of infusions, however it ends immediately when you lose {@status concentration} on this spell."
+			],
+			"source": "PlayerSpells",
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "an imbued gemstone worth at least 100gp"
+				}
+			}
+		}
+	]
+}
