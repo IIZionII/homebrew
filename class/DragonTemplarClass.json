@@ -10,12 +10,12 @@
 					"Helioz",
 					"Zion"
 				],
-				"version": "4.4.2",
+				"version": "4.4.3",
 				"color": "5500aa"
 			}
 		],
 		"dateAdded": 0,
-		"dateLastModified": 11
+		"dateLastModified": 12
 	},
 	"class": [
 		{
@@ -811,7 +811,7 @@
 			"classSource": "DragonTemplarClass",
 			"level": 7,
 			"entries": [
-				"At 7th level, you have nearly perfected mounted combat. While mounted on your dragon, you can move freely in the saddle of your dragon, capable of attacking creatures that would normally be out of range of your attacks due to your dragon's size."
+				"At 7th level, you have grown comfortable in the saddle and your dragon comfortable carrying you. You now have advantage on saves to remain in the saddle. Additionally your dragon has grown large enough to carry you in flight, albeit briefly. You and your dragon can fly for up to 10 minutes, all at once or in several shorter flights, each one using a minimum of 1 minute from the duration. If you are flying when the duration expires, you descend at a rate of 30 feet per round until you land. This duration is restored when your dragon takes a long rest."
 			]
 		},
 		{
@@ -852,7 +852,7 @@
 			"classSource": "DragonTemplarClass",
 			"level": 11,
 			"entries": [
-				"At 11th level, you have become extremely comfortable on the back of your dragon and they are comfortable with you on them. You can now ride your dragon while it uses its flying speed. Additionally, while mounted on your dragon, you are considered under the sanctuary spell unless you use your action to make an attack roll or cast a damaging spell. You regain this feature at the start of your next turn. Any failed save to target you instead targets your dragon."
+				"At 11th level, you and your dragon have nearly perfected mounted combat. Your dragon has also grown strong enough to carry you at all times in flight. Additionally, while mounted on your dragon, you are considered under the sanctuary spell unless you use your action to make an attack roll or cast a damaging spell. You regain this feature at the start of your next turn. Any failed save to target you instead targets your dragon."
 			]
 		},
 		{
