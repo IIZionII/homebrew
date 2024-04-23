@@ -531,102 +531,100 @@
 				"Ability Score Improvement|Dragon Companion|DragonTemplarClass|19|DragonTemplarClass",
 				"Breath Weapon Range Increase|Dragon Companion|DragonTemplarClass|20|DragonTemplarClass"
 			],
-			"fluff": [
-				{
-					"type": "entries",
-					"name": "Base Statblock",
-					"source": "DT",
-					"entries": [
-						{
-							"type": "statblockInline",
-							"style": "inset",
-							"dataType": "monster",
-							"data": {
-								"name": "Dragon Companion",
-								"size": [
-									"M"
-								],
-								"type": "dragon",
-								"source": "DT",
-								"ac": [
-									{
-										"ac": 15,
-										"from": [
-											"10 + CON mod + prof. bonus"
-										]
-									}
-								],
-								"hp": {
-									"average": 19,
-									"formula": "2d12 + 6"
+			"fluff": {
+				"type": "entries",
+				"name": "Base Statblock",
+				"source": "DT",
+				"entries": [
+					{
+						"type": "statblockInline",
+						"style": "inset",
+						"dataType": "monster",
+						"data": {
+							"name": "Dragon Companion",
+							"size": [
+								"M"
+							],
+							"type": "dragon",
+							"source": "DT",
+							"ac": [
+								{
+									"ac": 15,
+									"from": [
+										"10 + CON mod + prof. bonus"
+									]
+								}
+							],
+							"hp": {
+								"average": 19,
+								"formula": "2d12 + 6"
+							},
+							"speed": {
+								"walk": 30,
+								"fly": 30
+							},
+							"str": 14,
+							"dex": 10,
+							"con": 16,
+							"int": 10,
+							"wis": 12,
+							"cha": 14,
+							"save": {
+								"str": "+4",
+								"con": "+5",
+								"wis": "+3",
+								"cha": "+4"
+							},
+							"skill": {
+								"perception": "+5",
+								"stealth": "+2"
+							},
+							"senses": [
+								"darkvision 60 ft."
+							],
+							"passive": 15,
+							"languages": [
+								"Draconic",
+								"understands Common"
+							],
+							"trait": [
+								{
+									"name": "Damage Immunity",
+									"entries": [
+										"The dragon companion is immune to the same type of damage as its breath weapon."
+									]
 								},
-								"speed": {
-									"walk": 30,
-									"fly": 30
+								{
+									"name": "Condition Immunity",
+									"entries": [
+										"The dragon companion is immune to the {@condition poisoned} condition if its breath weapon deals poison damage, and the {@condition charmed} condition if it deals psychic damage."
+									]
+								}
+							],
+							"action": [
+								{
+									"name": "Bite",
+									"entries": [
+										"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. Hit: 6 ({@damage 1d6 + 2}) piercing damage plus 3 ({@damage 1d4}) damage of the breath weapon type."
+									]
 								},
-								"str": 14,
-								"dex": 10,
-								"con": 16,
-								"int": 10,
-								"wis": 12,
-								"cha": 14,
-								"save": {
-									"str": "+4",
-									"con": "+5",
-									"wis": "+3",
-									"cha": "+4"
+								{
+									"name": "Claw",
+									"entries": [
+										"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. Hit: 7 ({@damage 1d8 + 2}) slashing damage."
+									]
 								},
-								"skill": {
-									"perception": "+5",
-									"stealth": "+2"
-								},
-								"senses": [
-									"darkvision 60 ft."
-								],
-								"passive": 15,
-								"languages": [
-									"Draconic",
-									"understands Common"
-								],
-								"trait": [
-									{
-										"name": "Damage Immunity",
-										"entries": [
-											"The dragon companion is immune to the same type of damage as its breath weapon."
-										]
-									},
-									{
-										"name": "Condition Immunity",
-										"entries": [
-											"The dragon companion is immune to the {@condition poisoned} condition if its breath weapon deals poison damage, and the {@condition charmed} condition if it deals psychic damage."
-										]
-									}
-								],
-								"action": [
-									{
-										"name": "Bite",
-										"entries": [
-											"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. Hit: 6 ({@damage 1d6 + 2}) piercing damage plus 3 ({@damage 1d4}) damage of the breath weapon type."
-										]
-									},
-									{
-										"name": "Claw",
-										"entries": [
-											"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. Hit: 7 ({@damage 1d8 + 2}) slashing damage."
-										]
-									},
-									{
-										"name": "Tail",
-										"entries": [
-											"{@atk mw} {@hit 4} to hit, reach 10 ft., one target. Hit: 6 ({@damage 1d6 + 2}) bludgeoning damage."
-										]
-									}
-								]
-							}
+								{
+									"name": "Tail",
+									"entries": [
+										"{@atk mw} {@hit 4} to hit, reach 10 ft., one target. Hit: 6 ({@damage 1d6 + 2}) bludgeoning damage."
+									]
+								}
+							]
 						}
-					]
-				}
-			]
+					}
+				]
+			}
 		}
 	],
 	"classFeature": [

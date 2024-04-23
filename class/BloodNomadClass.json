@@ -1,0 +1,276 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "BloodNomadClass",
+				"abbreviation": "BN",
+				"full": "Blood Nomad",
+				"authors": [
+					"Zion"
+				],
+				"convertedBy": [
+					"Zion"
+				],
+				"version": "1.0.0",
+				"color": "f44444"
+			}
+		],
+		"status": "wip",
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+	"class": [
+		{
+			"name": "Blood Nomad",
+			"source": "BloodNomadClass",
+			"classFeatures": [
+				"Hematic Sustenance|Blood Nomad|BloodNomadClass|1|BloodNomadClass",
+				"Pure-Blooded|Blood Nomad|BloodNomadClass|20|BloodNomadClass"
+			],
+			"hd": {
+				"number": 1,
+				"faces": 10
+			},
+			"proficiency": [
+				"dex",
+				"con"
+			],
+			"startingProficiencies": {
+				"armor": [
+					"light",
+					"{@item shield|phb|shields}"
+				],
+				"weapons": [
+					"simple"
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"arcana",
+								"athletics",
+								"history",
+								"investigation",
+								"medicine",
+								"nature",
+								"perception",
+								"religion",
+								"stealth",
+								"survival"
+							],
+							"count": 3
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"default": [
+					"Any two {@filter simple weapons|items|source=phb|category=basic|type=simple weapon}",
+					"{@item Leather armor|phb}",
+					"An {@item explorer's pack|phb}"
+				],
+				"additionalFromBackground": true,
+				"goldAlternative": "{@dice 5d4 × 10|5d4 × 10|Starting Gold}"
+			},
+			"multiclassing": {
+				"requirements": {
+					"con": 16
+				},
+				"proficienciesGained": {
+					"armor": [
+						"light",
+						"{@item shield|phb|shields}"
+					],
+					"weapons": [
+						"simple"
+					],
+					"skills": [
+						{
+							"choose": {
+								"from": [
+									"arcana",
+									"athletics",
+									"history",
+									"investigation",
+									"medicine",
+									"nature",
+									"perception",
+									"religion",
+									"stealth",
+									"survival"
+								],
+								"count": 1
+							}
+						}
+					]
+				}
+			},
+			"casterProgression": "1/2",
+			"spellcastingAbility": "con",
+			"classSpells": [
+				{
+					"className": "Wizard",
+					"classSource": "PHB"
+				}
+			],
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"Cantrips Known"
+					],
+					"rows": [
+						[
+							"2"
+						],
+						[
+							"2"
+						],
+						[
+							"2"
+						],
+						[
+							"2"
+						],
+						[
+							"2"
+						],
+						[
+							"2"
+						],
+						[
+							"2"
+						],
+						[
+							"2"
+						],
+						[
+							"2"
+						],
+						[
+							"2"
+						],
+						[
+							"2"
+						],
+						[
+							"2"
+						],
+						[
+							"2"
+						],
+						[
+							"2"
+						],
+						[
+							"2"
+						],
+						[
+							"2"
+						],
+						[
+							"2"
+						],
+						[
+							"2"
+						],
+						[
+							"2"
+						],
+						[
+							"2"
+						]
+					]
+				},
+				{
+					"colLabels": [
+						"Castable Spell Level"
+					],
+					"rows": [
+						[
+							"1st"
+						],
+						[
+							"1st"
+						],
+						[
+							"1st"
+						],
+						[
+							"1st"
+						],
+						[
+							"2nd"
+						],
+						[
+							"2nd"
+						],
+						[
+							"2nd"
+						],
+						[
+							"2nd"
+						],
+						[
+							"3rd"
+						],
+						[
+							"3rd"
+						],
+						[
+							"3rd"
+						],
+						[
+							"3rd"
+						],
+						[
+							"4th"
+						],
+						[
+							"4th"
+						],
+						[
+							"4th"
+						],
+						[
+							"4th"
+						],
+						[
+							"5th"
+						],
+						[
+							"5th"
+						],
+						[
+							"5th"
+						],
+						[
+							"5th"
+						]
+					]
+				}
+			]
+		}
+	],
+	"classFeature": [
+		{
+			"name": "Hematic Sustenance",
+			"source": "BloodNomadClass",
+			"className": "Blood Nomad",
+			"classSource": "BloodNomadClass",
+			"level": 1,
+			"entries": [
+				"Spend a hit die to forgo food and water for a day, DC 12 CON save to regain the hit die on long rest, this save must be repeated for each hit die expended with this feature."
+			]
+		},
+		{
+			"name": "Pure-Blooded",
+			"source": "BloodNomadClass",
+			"className": "Blood Nomad",
+			"classSource": "BloodNomadClass",
+			"level": 20,
+			"entries": [
+				"All your hit dice become d12s and you gain 1d20 + CON mod max health, something else."
+			]
+		}
+	]
+}
