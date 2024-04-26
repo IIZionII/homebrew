@@ -11,12 +11,12 @@
 				"convertedBy": [
 					"Zion"
 				],
-				"version": "1.0.0",
+				"version": "1.0.1",
 				"color": "ffffff"
 			}
 		],
 		"dateAdded": 0,
-		"dateLastModified": 0
+		"dateLastModified": 1
 	},
 	"monster": [
 		{
@@ -81,7 +81,7 @@
 				{
 					"name": "Withering Aura",
 					"entries": [
-						"Each creature that starts its turn within 5 feet of the wurm must make a DC 14 Constitution saving throw. On a failed save, the creature takes 4 ({@damage 1d6}) necrotic damage, and gains one {@link level of withering|https://5etools-mirror-2.github.io/adventure.html#DoDk,12}."
+						"Each creature that starts its turn within 15 feet of the wurm must make a DC 14 Constitution saving throw. On a failed save, the creature takes 4 ({@damage 1d6}) necrotic damage, and gains one {@link level of withering|https://5etools-mirror-2.github.io/adventure.html#DoDk,12}."
 					]
 				}
 			],
