@@ -11,12 +11,12 @@
 				"convertedBy": [
 					"Zion"
 				],
-				"version": "1.0.1",
+				"version": "1.1.0",
 				"color": "ffffff"
 			}
 		],
 		"dateAdded": 0,
-		"dateLastModified": 1
+		"dateLastModified": 2
 	},
 	"monster": [
 		{
@@ -103,6 +103,119 @@
 				"type": "external",
 				"url": "https://raw.githubusercontent.com/IIZionII/homebrew-imgs/main/tokens/WitheringWurm.png"
 			}
+		},
+		{
+			"name": "Swiftfoot Imp",
+			"source": "MonstersOfAmoien",
+			"size": [
+				"S"
+			],
+			"type": "fiend",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"10 + Dexterity modifier"
+					]
+				}
+			],
+			"hp": {
+				"formula": "2d4 + 2",
+				"average": 7
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 15,
+			"con": 14,
+			"int": 10,
+			"wis": 6,
+			"cha": 5,
+			"save": {
+				"dex": "+4",
+				"con": "+4"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 8,
+			"resist": [
+				"cold",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks not made with silvered weapons",
+					"cond": true
+				}
+			],
+			"immune": [
+				"fire",
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"languages": [
+				"Infernal",
+				"Common"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Devil's Sight",
+					"entries": [
+						"Magical darkness doesn't impede the imp's darkvision."
+					]
+				},
+				{
+					"name": "Evasion",
+					"entries": [
+						"When the imp is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.",
+						"This trait is active only while the imp is doping."
+					]
+				},
+				{
+					"name": "Slippery Movement",
+					"entries": [
+						"The imp does not trigger opportunity attacks.",
+						"This trait is active only while the imp is doping."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The imp uses Swipe twice."
+					]
+				},
+				{
+					"name": "Swipe",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, or {@hit 12} while doping, reach 5 ft., one target. {@h}The imp takes 6 ({@dice 1d8 + 2}) coins from the target. The imp will go after gold if able, but will take other coins if not."
+					]
+				},
+				{
+					"name": "Sting",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, or {@hit 12} while doping, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage, and the target must make a {@dc 11} Constitution saving throw, taking 10 ({@damage 3d6}) poison damage on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Gold Doping",
+					"entries": [
+						"The imp eats a gold coin, digesting it with its unique constitution to give itself a boost of energy. This boost doubles the imps Dexterity, and triples its speed. This boost lasts for 3 rounds. When this boost ends the imp becomes {@condition stunned} for 1 round, and falls {@condition prone}."
+					]
+				}
+			]
 		}
 	]
 }
