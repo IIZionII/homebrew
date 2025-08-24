@@ -62,7 +62,7 @@
 			"subclassSource": "VoidWizard",
 			"level": 2,
 			"entries": [
-				"You learn the {@spell sapping sting} cantrip, which does not count against your known cantrips. You also learn the {@spell cloak of night} spell. You always have this spell prepared and it is not contained in your spellbook."
+				"You learn the {@spell sapping sting} cantrip, which does not count against your known cantrips. You also learn the {@spell cloak of night|VoidWizard} spell. You always have this spell prepared and it is not contained in your spellbook."
 			]
 		}
 	],
