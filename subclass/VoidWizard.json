@@ -22,9 +22,9 @@
 			"classSource": "PHB",
 			"shortName": "Void",
 			"subclassFeatures": [
-				"Shadow Sight|Wizard|PHB|Void|VW|2",
-				"Withering Spells|Wizard|PHB|Void|VW|2",
-				"Bonus Spells|Wizard|PHB|Void|VW|2"
+				"Shadow Sight|Wizard|PHB|Void|VoidWizard|2",
+				"Withering Spells|Wizard|PHB|Void|VoidWizard|2",
+				"Bonus Spells|Wizard|PHB|Void|VoidWizard|2"
 			]
 		}
 	],
@@ -35,7 +35,7 @@
 			"className": "Wizard",
 			"classSource": "PHB",
 			"subclassShortName": "Void",
-			"subclassSource": "VW",
+			"subclassSource": "VoidWizard",
 			"level": 2,
 			"entries": [
 				"You can see normally in darkness, both magical and nonmagical, out to a distance of 300 feet."
@@ -47,7 +47,7 @@
 			"className": "Wizard",
 			"classSource": "PHB",
 			"subclassShortName": "Void",
-			"subclassSource": "VW",
+			"subclassSource": "VoidWizard",
 			"level": 2,
 			"entries": [
 				"Whenever you cast a spell that can deal damage you may choose to replace any damage types the spell would deal with {@damage necrotic} damage."
@@ -59,7 +59,7 @@
 			"className": "Wizard",
 			"classSource": "PHB",
 			"subclassShortName": "Void",
-			"subclassSource": "VW",
+			"subclassSource": "VoidWizard",
 			"level": 2,
 			"entries": [
 				"You learn the {@spell sapping sting} cantrip, which does not count against your known cantrips. You also learn the {@spell cloak of night} spell. You always have this spell prepared and it is not contained in your spellbook."
@@ -103,7 +103,7 @@
 						},
 						"subclass": {
 							"name": "Void",
-							"source": "VW",
+							"source": "VoidWizard",
 							"shortName": "Void"
 						}
 					}
