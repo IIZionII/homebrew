@@ -104,11 +104,7 @@
 						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d10 + 5}) piercing damage plus 4 ({@damage 1d8}) necrotic damage. Additionally the target must make a DC 14 Constitution saving throw. On a failed save, the creature gains one {@link level of withering|https://5etools-mirror-2.github.io/adventure.html#DoDk,12}."
 					]
 				}
-			],
-			"tokenHref": {
-				"type": "external",
-				"url": "https://raw.githubusercontent.com/IIZionII/homebrew-imgs/main/tokens/WitheringWurm.png"
-			}
+			]
 		},
 		{
 			"name": "Swiftfoot Imp",

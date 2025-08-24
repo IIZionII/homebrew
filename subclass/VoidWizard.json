@@ -1,0 +1,129 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "VoidWizard",
+				"abbreviation": "VW",
+				"full": "Arcane Tradition: Void",
+				"authors": [
+					"Zion"
+				],
+				"version": "1.0"
+			}
+		],
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+	"subclass": [
+		{
+			"name": "Void",
+			"source": "VoidWizard",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"shortName": "Void",
+			"subclassFeatures": [
+				"Shadow Sight|Wizard|PHB|Void|VW|2",
+				"Withering Spells|Wizard|PHB|Void|VW|2",
+				"Bonus Spells|Wizard|PHB|Void|VW|2"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Shadow Sight",
+			"source": "VoidWizard",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Void",
+			"subclassSource": "VW",
+			"level": 2,
+			"entries": [
+				"You can see normally in darkness, both magical and nonmagical, out to a distance of 300 feet."
+			]
+		},
+		{
+			"name": "Withering Spells",
+			"source": "VoidWizard",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Void",
+			"subclassSource": "VW",
+			"level": 2,
+			"entries": [
+				"Whenever you cast a spell that can deal damage you may choose to replace any damage types the spell would deal with {@damage necrotic} damage."
+			]
+		},
+		{
+			"name": "Bonus Spells",
+			"source": "VoidWizard",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Void",
+			"subclassSource": "VW",
+			"level": 2,
+			"entries": [
+				"You learn the {@spell sapping sting} cantrip, which does not count against your known cantrips. You also learn the {@spell cloak of night} spell. You always have this spell prepared and it is not contained in your spellbook."
+			]
+		}
+	],
+	"spell": [
+		{
+			"name": "Cloak of Night",
+			"level": 2,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Wizard",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Void",
+							"source": "VW",
+							"shortName": "Void"
+						}
+					}
+				]
+			},
+			"entries": [
+				"You draw upon a curtain of magical shadow which lasts for 1 minute. When you do, choose one creature you can see within 60 feet of you to be enveloped by the cloak of night (which can be yourself). While the cloak lasts, that creature has resistance to all damage while it is in dim light or darkness.",
+				"In addition, when you draw the cloak of night, all nonmagical light sources within 60 feet of you become extinguished. Magical light sources are dispelled if they were created by a spell with a level equal to or lower than your proficiency bonus."
+			],
+			"source": "VoidWizard",
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"areaTags": [
+				"ST"
+			],
+			"miscTags": [
+				"SGT"
+			]
+		}
+	]
+}
