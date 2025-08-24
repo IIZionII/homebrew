@@ -486,6 +486,145 @@
 				"Ability Score Improvement|Dragon Templar|DragonTemplarClass|19|DragonTemplarClass",
 				"Master Rider|Dragon Templar|DragonTemplarClass|20|DragonTemplarClass"
 			]
+		},
+		{
+			"name": "Dragon Companion",
+			"source": "DragonTemplarClass",
+			"isSidekick": true,
+			"hd": {
+				"number": 2,
+				"faces": 12
+			},
+			"proficiency": [
+				"str",
+				"con",
+				"wis",
+				"cha"
+			],
+			"startingProficiencies": {
+				"skills": [
+					{
+						"perception": true,
+						"stealth": true
+					}
+				]
+			},
+			"classFeatures": [
+				"Breath Weapon|Dragon Companion|DragonTemplarClass|2|DragonTemplarClass",
+				"Size Increase|Dragon Companion|DragonTemplarClass|3|DragonTemplarClass",
+				"Ability Score Improvement|Dragon Companion|DragonTemplarClass|4|DragonTemplarClass",
+				"Breath Weapon Range Increase|Dragon Companion|DragonTemplarClass|5|DragonTemplarClass",
+				"Flying Speed Increase|Dragon Companion|DragonTemplarClass|5|DragonTemplarClass",
+				"Ability Score Improvement|Dragon Companion|DragonTemplarClass|6|DragonTemplarClass",
+				"Extra Attack|Dragon Companion|DragonTemplarClass|7|DragonTemplarClass",
+				"Ability Score Improvement|Dragon Companion|DragonTemplarClass|8|DragonTemplarClass",
+				"Darkvision Increase|Dragon Companion|DragonTemplarClass|9|DragonTemplarClass",
+				"Blind Sight|Dragon Companion|DragonTemplarClass|10|DragonTemplarClass",
+				"Breath Weapon Range Increase|Dragon Companion|DragonTemplarClass|11|DragonTemplarClass",
+				"Ability Score Improvement|Dragon Companion|DragonTemplarClass|12|DragonTemplarClass",
+				"Flying Speed Increase|Dragon Companion|DragonTemplarClass|13|DragonTemplarClass",
+				"Ability Score Improvement|Dragon Companion|DragonTemplarClass|14|DragonTemplarClass",
+				"Extra Attack (2)|Dragon Companion|DragonTemplarClass|15|DragonTemplarClass",
+				"Size Increase|Dragon Companion|DragonTemplarClass|15|DragonTemplarClass",
+				"Ability Score Improvement|Dragon Companion|DragonTemplarClass|16|DragonTemplarClass",
+				"Blind Sight Increase|Dragon Companion|DragonTemplarClass|18|DragonTemplarClass",
+				"Ability Score Improvement|Dragon Companion|DragonTemplarClass|19|DragonTemplarClass",
+				"Breath Weapon Range Increase|Dragon Companion|DragonTemplarClass|20|DragonTemplarClass"
+			],
+			"fluff": {
+				"type": "entries",
+				"name": "Base Statblock",
+				"source": "DT",
+				"entries": [
+					{
+						"type": "statblockInline",
+						"style": "inset",
+						"dataType": "monster",
+						"data": {
+							"name": "Dragon Companion",
+							"size": [
+								"M"
+							],
+							"type": "dragon",
+							"source": "DT",
+							"ac": [
+								{
+									"ac": 15,
+									"from": [
+										"10 + CON mod + prof. bonus"
+									]
+								}
+							],
+							"hp": {
+								"average": 19,
+								"formula": "2d12 + 6"
+							},
+							"speed": {
+								"walk": 30,
+								"fly": 30
+							},
+							"str": 14,
+							"dex": 10,
+							"con": 16,
+							"int": 10,
+							"wis": 12,
+							"cha": 14,
+							"save": {
+								"str": "+4",
+								"con": "+5",
+								"wis": "+3",
+								"cha": "+4"
+							},
+							"skill": {
+								"perception": "+5",
+								"stealth": "+2"
+							},
+							"senses": [
+								"darkvision 60 ft."
+							],
+							"passive": 15,
+							"languages": [
+								"Draconic",
+								"understands Common"
+							],
+							"trait": [
+								{
+									"name": "Damage Immunity",
+									"entries": [
+										"The dragon companion is immune to the same type of damage as its breath weapon."
+									]
+								},
+								{
+									"name": "Condition Immunity",
+									"entries": [
+										"The dragon companion is immune to the {@condition poisoned} condition if its breath weapon deals poison damage, and the {@condition charmed} condition if it deals psychic damage."
+									]
+								}
+							],
+							"action": [
+								{
+									"name": "Bite",
+									"entries": [
+										"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. Hit: 6 ({@damage 1d6 + 2}) piercing damage plus 3 ({@damage 1d4}) damage of the breath weapon type."
+									]
+								},
+								{
+									"name": "Claw",
+									"entries": [
+										"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. Hit: 7 ({@damage 1d8 + 2}) slashing damage."
+									]
+								},
+								{
+									"name": "Tail",
+									"entries": [
+										"{@atk mw} {@hit 4} to hit, reach 10 ft., one target. Hit: 6 ({@damage 1d6 + 2}) bludgeoning damage."
+									]
+								}
+							]
+						}
+					}
+				]
+			}
 		}
 	],
 	"classFeature": [
